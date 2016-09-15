@@ -26,21 +26,18 @@ h2 {
     font-family: main;
     font-size: 43px;
 	color: #000000;
-    text-shadow: 0px 0px 5px #000000;
     margin-bottom: -10px;
 }
 h3 {
     font-family: main;
     font-size: 32px;
 	color: #000000;
-    text-shadow: 0px 0px 5px #000000;
 }
 
 h4 {
 	font-family: main;
     font-size: 27px;
 	color: #000000;
-    text-shadow: 0px 0px 5px #000000;
 }
 .text-center {
 	text-align: center;
@@ -239,9 +236,180 @@ i.icon.icon-email.footer-contact-links {
 	margin-bottom: 0px !important;
 }
 
+#hero-tiles {			
+	display: block;
+	position: relative;
+	z-index: 1000;
+	margin-top: -90px;
+	margin-bottom: 50px;
+}
+.tile-container {
+	display: inline-block;
+	float: left;
+	width: 33%;
+}
+.events-tile {
+	display: block;
+	width: 320px;
+	height: 180px;
+	background: #878787;	
+	margin: auto;
+	border-radius: 23px;
+}
+.events-tile:hover {
+	background: #FF0000;	
+}
+.menu-tile {
+	display: block;
+	width: 320px;
+	height: 180px;
+	background: #878787;	
+	margin: auto;
+	border-radius: 23px;
+}
+.menu-tile:hover {
+	background: #FF0000;	
+}
+.bundles-tile {
+	display: block;
+	width: 320px;
+	height: 180px;
+	background: #878787;	
+	margin: auto;
+	border-radius: 23px;
+}
+.bundles-tile:hover {
+	background: #FF0000;	
+}
+.tile-text {
+    display: block;
+	padding-top: 57px;
+	color: #FFFFFF;
+	font-size: 43px;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+}
+.under-tile-text {
+    padding: 16px 32px;
+}
 
+#home-about {
+	background-image: url("../img/home-about-bg.jpg");
+    background-size: cover;
+	background-position: center;
+	padding: 87px 0px;
+}
+.home-about-title {
+	color: white;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+}
+.home-about-text {
+	color: white;
+	font-weight: bold;
+    letter-spacing: 0.5px;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+}
 
+#home-value {
+	margin: 87px 0px;
+}
+.value-middle-row-margin {
+	margin: 50px 0px;
+}
+.value-image-container {
+}
+.value-image {
+	margin-top: 50px;
+}
+.value-text-container {
+	
+}
 
+.how-we-serve-title {
+	text-align: center;
+}
+.how-we-serve-row {	
+	display: block;
+	width: 100%;
+}
+.how-we-serve-image {
+	margin-top: 23px;
+}
+.how-we-serve-text {
+	font-weight: bold;
+}
 
+#community-partners-intro {
+	background: #820a0b;
+	padding: 63px 0px;
+}
+.community-partners-title {
+	color: white;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+}
+.community-partners-text {
+	color: white;
+	font-weight: bold;
+    letter-spacing: 0.5px;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+}
 
+#community-partners-list {	
+	padding-top: 36px;
+	padding-bottom: 87px;
+}
+.community-partners-middle-row {
+	padding: 50px 0px;
+}
+.community-partner-logo {
+	width: 100%;
+	height: 50px;
+	background: blue;
+	border-radius: 50%;
+}
 
+#call-to-action {
+	background-image: url("../img/cta-bg.jpg");
+    background-size: cover;
+	background-position: center;
+	padding: 63px 0px;
+}
+.call-to-action-title {
+	color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+}
+.call-to-action-text {
+	color: white;
+	font-weight: bold;
+    letter-spacing: 0.5px;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+}
+.call-to-action-button-container {
+	margin: 27px 23px;
+}
+.x2-button-container-left {
+	display: inline-block;	
+	width: 50%;
+	float: left;
+}
+.x2-button-container-right {
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+.over-dark-button {
+	display: block;
+	background: #FFFFFF;
+	border: solid 3px #144e15;
+	border-radius: 23px;
+	padding: 4px 0px;
+	width: 230px;
+	margin: auto;
+}
+.button-text {
+	color: #000000;
+	font-weight: bold;
+	
+}

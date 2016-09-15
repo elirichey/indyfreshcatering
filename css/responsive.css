@@ -116,9 +116,54 @@
 		  padding-bottom: 32px;
 		  font-size: 43px;
 	  }
-	  
-	  
-	  
+	  	  	  	  
+	  #hero-tiles {
+		  margin-top: 50px;
+	  }
+	  .events-tile {
+		  width: 230px;
+		  height: 150px;
+	  }
+	  .menu-tile {
+		  width: 230px;
+		  height: 150px;
+	  }
+	  .bundles-tile {
+		  width: 230px;
+		  height: 150px;
+	  }
+	  .tile-text {
+		  padding-top: 43px;
+	  }
+	  #home-value {
+		  margin: 50px 0px;
+	  }
+	  .value-image-container {
+		  display: inline-block;
+		  width: 34%;
+		  float: left;
+	  }
+	  .value-image {
+		  width: 230px;
+	  }
+	  .value-text-container {
+		  display: inline-block;
+		  width: 66%;
+		  float: left !important;
+	  }
+	  .how-we-serve-title {
+		  margin-top: 50px;
+	  }
+	  .how-we-serve-mobile {
+		  width: 50%;
+	  }
+	  div.large-2.columns {
+		  width: 50%;
+		  margin: 10px 0px;
+	  }
+	  .community-partners-middle-row {
+		  padding: 0px 0px;
+	  }
 	  
 	  
 	  
@@ -135,7 +180,7 @@
 
 	  #top-header {
 		  display: block;
-		  height: 150px;
+		  height: 95px;
 		  background: #144e15;
 	  }
 	  .top-contact {
@@ -143,8 +188,7 @@
 		  text-align: center;
 	  }
 	  .top-social {
-		  padding-top: 8px;
-		  text-align: center;
+		  display: none;
 	  }
 	  #header-social {
 		  float: none;
@@ -205,8 +249,76 @@
 		  font-size: 43px;		  
 	  }
 	  	  
+	  #hero-tiles {
+		  margin-top: 50px;
+	  }
+	  .tile-container {
+		  float: none;
+		  width: 100%;
+	  }
+	  .events-tile {
+		  width: 300px;
+	  }
+	  .menu-tile {
+		  width: 300px;
+	  }
+	  .bundles-tile {
+		  width: 300px;
+	  }
+	  #home-about {
+		  background-image: url(../img/home-about-bg.jpg);
+		  background-size: cover;
+		  background-position: center;
+		  padding: 63px 0px;
+	  }
+	  .value-text-container {
+		  text-align: center;
+	  }
+	  .value-image-container {
+		  text-align: center;
+	  }
+	  .value-image {
+		  margin-top: 0px;
+		  margin-bottom: 23px;
+	  }
+	  .how-we-serve-title {
+		  margin-top: 50px;
+	  }
+	  .how-we-serve-mobile {
+		  display: inline-block;
+		  width: 50%;		  
+		  float: left;
+	  }
+	  div.large-2.columns {
+		  width: 50%;
+		  margin: 10px 0px;
+	  }
+	  #community-partners-intro {
+		  padding: 50px 0px;
+		  padding-bottom: 36px;
+	  }
+	  #community-partners-list {
+		  padding-bottom: 50px;
+	  }
+	  .community-partners-middle-row {
+		  padding: 0px 0px;
+	  }
+	  #call-to-action {
+		  padding: 43px 0px;
+		  padding-top: 72px;
+	  }
+	  .x2-button-container-left {
+		  width: 100%;
+		  float: none;
+		  margin: 23px 0px;
+	  }
+	  .x2-button-container-right {
+		  width: 100%;
+		  float: none;
+		  margin: 23px 0px;
+	  }
 
-
+	  
 
 }
 
