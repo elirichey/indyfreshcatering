@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?yei3am');
+  src:  url('fonts/icomoon.eot?yei3am#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?yei3am') format('truetype'),
+    url('fonts/icomoon.woff?yei3am') format('woff'),
+    url('fonts/icomoon.svg?yei3am#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angies-list-circled:before {
+  content: "\e900";
+}
+.icon-angies-list:before {
+  content: "\e901";
+}
+.icon-email:before {
+  content: "\e902";
+}
+.icon-expedia:before {
+  content: "\e903";
+}
+.icon-ez-catering-circled:before {
+  content: "\e904";
+}
+.icon-ez-catering:before {
+  content: "\e905";
+}
+.icon-facebook-circled:before {
+  content: "\e906";
+}
+.icon-facebook:before {
+  content: "\e907";
+}
+.icon-github:before {
+  content: "\e908";
+}
+.icon-google-places-circled:before {
+  content: "\e909";
+}
+.icon-google-places:before {
+  content: "\e90a";
+}
+.icon-google-plus-circled:before {
+  content: "\e90b";
+}
+.icon-google-plus:before {
+  content: "\e90c";
+}
+.icon-home-advisor-circled:before {
+  content: "\e90d";
+}
+.icon-home-advisor:before {
+  content: "\e90e";
+}
+.icon-hotelsdotcom-circled:before {
+  content: "\e90f";
+}
+.icon-hotelsdotcom:before {
+  content: "\e910";
+}
+.icon-instagram-circled:before {
+  content: "\e911";
+}
+.icon-instagram:before {
+  content: "\e912";
+}
+.icon-kayak-circled:before {
+  content: "\e913";
+}
+.icon-kayak:before {
+  content: "\e914";
+}
+.icon-linkedin-circled:before {
+  content: "\e915";
+}
+.icon-linkedin:before {
+  content: "\e916";
+}
+.icon-old-phone-circled:before {
+  content: "\e917";
+}
+.icon-old-phone:before {
+  content: "\e918";
+}
+.icon-phone-circled:before {
+  content: "\e919";
+}
+.icon-phone:before {
+  content: "\e91a";
+}
+.icon-pintrest-circled:before {
+  content: "\e91b";
+}
+.icon-pintrest:before {
+  content: "\e91c";
+}
+.icon-tripadvisor-circled:before {
+  content: "\e91d";
+}
+.icon-tripadvisor:before {
+  content: "\e91e";
+}
+.icon-tumblr-circled:before {
+  content: "\e91f";
+}
+.icon-tumblr:before {
+  content: "\e920";
+}
+.icon-twitter-circled:before {
+  content: "\e921";
+}
+.icon-twitter:before {
+  content: "\e922";
+}
+.icon-wedding-wire-circled:before {
+  content: "\e923";
+}
+.icon-wedding-wire:before {
+  content: "\e924";
+}
+.icon-whitepages-circled:before {
+  content: "\e925";
+}
+.icon-whitepages:before {
+  content: "\e926";
+}
+.icon-yelp-circled:before {
+  content: "\e927";
+}
+.icon-yelp:before {
+  content: "\e928";
+}
+.icon-youtube-circled:before {
+  content: "\e929";
+}
+.icon-youtube:before {
+  content: "\e92a";
+}
+

@@ -1,0 +1,247 @@
+
+/* foundational styles (layout > default.html) */
+
+@font-face {
+    font-family: main;
+    src: url("../css/fonts/Calibri.ttf");
+}
+
+body {
+    background: #ffffff; 
+}
+
+p {
+    font-family: main;
+    font-size: 18px;
+	color: #000000;
+}
+h1 { 
+    font-family: main;
+    font-size: 57px;
+	color: #000000;
+    text-shadow: 0px 0px 5px #000000;
+    margin-bottom: -10px;
+}
+h2 { 
+    font-family: main;
+    font-size: 43px;
+	color: #000000;
+    text-shadow: 0px 0px 5px #000000;
+    margin-bottom: -10px;
+}
+h3 {
+    font-family: main;
+    font-size: 32px;
+	color: #000000;
+    text-shadow: 0px 0px 5px #000000;
+}
+
+h4 {
+	font-family: main;
+    font-size: 27px;
+	color: #000000;
+    text-shadow: 0px 0px 5px #000000;
+}
+.text-center {
+	text-align: center;
+}
+.text-white {
+	color: #FFFFFF;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #FFFFFF;
+}
+
+ul {
+	margin-left: 0px !important;
+}
+
+
+
+#top-header {
+	display: block;
+	height: 44px;
+	background: #144e15;
+}
+.top-contact {
+	padding-top: 8px;
+}
+.top-phone {
+	display: inline-block;
+}
+.top-email {
+	display: inline-block;
+	margin-left: 50px;
+}
+.header-contact-links {
+	color: #FFFFFF;
+	font-size: 27px;
+}
+.header-social-links {
+	color: #FFFFFF;
+	font-size: 27px;
+}
+i.icon.icon-phone.header-contact-links {
+    display: inline-block;
+    vertical-align: sub;
+}
+i.icon.icon-email.header-contact-links {
+    display: inline-block;
+    vertical-align: sub;
+}
+#header-social {
+	float: right;
+}
+#header-social li {
+	display: inline-block;
+	margin: 0px 23px;
+}
+.top-social {
+	padding-top: 8px;
+}
+
+#main-header {
+	display: block;
+	height: 143px;
+	box-shadow: 0px 0px 3px #000000;
+}
+.header-logo {
+	padding-top: 23px;
+}
+#main-menu {
+	float: right;
+	padding-top: 50px;
+}
+#main-menu li {
+	display: inline-block;
+	font-family: main;
+	font-size: 18px;
+	margin: 0px 13px;
+}
+.menu-text {
+	color: #000000;
+	font-weight: normal
+}
+.menu-text:hover {
+    color: #820a0b;
+}
+
+
+#top-footer {	
+	display: block;
+	height: 50px;
+}
+#footer-social {
+	text-align: center;
+	padding-top: 7px;
+}
+#footer-social li {
+	display: inline-block;
+	margin: 0px 36px;
+}
+.footer-social-links {
+	color: #000000;
+	font-size: 36px;
+}
+
+#main-footer {
+	display: block;
+	height: 180px;
+}
+.footer-logo {
+	padding-top: 43px;
+}
+.phone-line {
+	display: block;
+	width: 100%;
+	padding-top: 57px;
+}
+.email-line {
+	display: block;
+	width: 100%;
+	padding-top: 13px;
+}
+.footer-contact-links {
+	color: #820a0b;
+	font-size: 23px;
+}
+.bottom-contact {
+	color: #000000;
+}
+.bottom-contact:hover {
+	color: #820a0b;
+}
+i.icon.icon-phone.footer-contact-links {
+    display: inline-block;
+    vertical-align: sub;
+}
+i.icon.icon-email.footer-contact-links {
+    display: inline-block;
+    vertical-align: sub;
+}
+.footer-address {
+	display: block;
+	margin-top: 50px;
+}
+.footer-address-top {
+	color: #820a0b;
+	font-weight: bold;
+}
+.footer-address-bottom {
+	color: #000000;
+	font-weight: normal;
+}
+
+#bottom-footer {	
+	display: block;
+	height: 44px;
+	background: #144e15;
+}
+.copyright {
+	padding-top: 7px;
+	color: rgba(255, 255, 255, 0.72);
+}
+
+/* menu foundational styles (layout > menu.html)*/
+/* bundles foundational styles (layout > bundles.html)*/
+/* events foundational styles (layout > events.html)*/
+
+
+/* home styles (index.html) */
+
+#home-hero {
+	background-image: url("../img/home-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 570px;
+	position: relative;
+	z-index: 0;
+}
+.home-h1 {
+	color: #FFFFFF;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+	padding-top: 132px;
+	padding-bottom: 32px;
+}
+.home-hero-text-container {
+	text-align: center;
+	background: rgba(255, 255, 255, 0.72);
+	padding: 23px 23px;
+}
+.home-hero-text {
+	font-weight: bold;
+	text-shadow: 0px 0px 3px rgba(255, 255, 255, 1), 0px 0px 7px rgba(255, 255, 255, 1), 0px 0px 13px rgba(255, 255, 255, 1), 0px 0px 23px rgba(255, 255, 255, 1), 0px 0px 32px rgba(255, 255, 255, 1);
+	margin-bottom: 0px !important;
+}
+
+
+
+
+
+
+
