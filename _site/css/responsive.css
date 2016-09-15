@@ -1,0 +1,229 @@
+/******************************************************************************
+  Min Width "1200x"
+  *******************************************************************************/
+  @media (min-width: 1200px) {
+  }
+
+/******************************************************************************
+  Max Width "1169px" - Min Width "980px"
+  *******************************************************************************/
+  @media (min-width: 980px) and (max-width: 1199px) {
+  }
+
+/******************************************************************************
+  Max Width "979px"
+  *******************************************************************************/
+  @media (max-width: 979px) {
+  }
+
+/******************************************************************************
+  Max Width "979px" - Min Width "768px"
+  *******************************************************************************/
+  @media (min-width: 768px) and (max-width: 979px) {
+
+	  .top-contact {
+		  padding-top: 8px;
+		  width: 55%;
+	  }
+	  i.icon.icon-phone.header-contact-links {
+		  display: inline-block;
+		  vertical-align: sub;
+		  font-size: 23px;
+	  }
+	  i.icon.icon-email.header-contact-links {
+		  display: inline-block;
+		  vertical-align: sub;
+		  font-size: 23px;
+	  }
+	  .top-phone {
+		  font-size: 15px;
+	  }
+	  .top-email {
+		  display: inline-block;
+		  margin-left: 23px;
+		  font-size: 15px;
+	  }	  
+	  .top-social {
+		  padding-top: 8px;
+		  width: 45%;
+	  }
+	  #header-social li {
+		  display: inline-block;
+		  margin: 0px 7px;
+	  }
+	  .tablet-logo {
+		  width: 36%;
+	  }
+	  .header-logo {
+		  padding-top: 18px;
+	  }
+	  .tablet-main-menu {
+		  width: 64%;
+	  }
+	  #main-menu {
+		  display: none;
+	  }
+	  
+	  
+	  
+	  
+	  
+	  #top-footer {
+		  display: block;
+		  height: 63px;
+	  }
+	  #footer-social {
+		  text-align: center;
+		  padding-top: 7px;
+	  }
+	  #footer-social li {
+		  display: inline-block;
+		  margin: 7px 20px;
+	  }
+	  	  
+	  
+	  #main-footer {
+		  display: block;
+		  height: 120px;
+	  }
+	  .tablet-footer-logo {
+		  width: 27%;
+	  }
+	  .footer-logo {
+		  padding-top: 23px;
+	  }
+	  .tablet-footer-contact {
+		  width: 40%;		  
+	  }
+	  .phone-line {
+		  display: block;
+		  width: 100%;
+		  padding-top: 27px;
+	  }
+	  .tablet-footer-address {
+		  width: 33%;		  
+	  }
+	  .footer-address {
+		  display: block;
+		  margin-top: 23px;
+	  }
+	  
+	  #home-hero {
+		  height: 430px;
+	  }
+	  .home-h1 {
+		  padding-top: 93px;
+		  padding-bottom: 32px;
+		  font-size: 43px;
+	  }
+	  
+	  
+	  
+	  
+	  
+	  
+
+
+
+
+  }
+
+/******************************************************************************
+  Max Width "767px"
+  *******************************************************************************/
+  @media (max-width: 767px) {
+
+	  #top-header {
+		  display: block;
+		  height: 150px;
+		  background: #144e15;
+	  }
+	  .top-contact {
+		  padding-top: 13px;
+		  text-align: center;
+	  }
+	  .top-social {
+		  padding-top: 8px;
+		  text-align: center;
+	  }
+	  #header-social {
+		  float: none;
+		  margin-top: 7px;
+	  }
+	  #header-social li {
+		  display: inline-block;
+		  margin: 0px 8px;
+	  }
+	  
+	  .header-logo {
+		  padding-top: 23px;
+		  margin: auto !important;
+		  display: block;
+		  width: 244px;
+	  }
+	  #main-header {
+		  display: block;
+		  height: 143px;
+		  box-shadow: 0px 0px 3px #000000;
+	  }
+	  #main-menu {
+		  display: none;
+	  }
+	  	  	  	  	  
+	  
+	  #top-footer {
+		  display: block;
+		  height: 120px;
+	  }
+	  #footer-social {
+		  text-align: center;
+		  padding-top: 7px;
+	  }
+	  #footer-social li {
+		  display: inline-block;
+		  margin: 7px 20px;
+	  }
+	  
+	  #main-footer {
+		  display: block;
+		  height: 420px;
+	  }
+	  .footer-logo {
+		  padding-top: 23px;
+	  }
+	  
+	  
+	  .top-email {
+		  display: inline-block;
+		  margin-top: 10px;
+		  margin-bottom: 3px;
+		  margin-left: 32px;
+	  }	 
+	  .home-h1 {
+		  padding-top: 87px;
+		  padding-bottom: 43px;
+		  font-size: 43px;		  
+	  }
+	  	  
+
+
+
+}
+
+/******************************************************************************
+  Max Width "600px"
+  *******************************************************************************/
+  @media (max-width: 600px) {
+  }
+
+
+
+/******************************************************************************
+  Min Width "767px"
+  *******************************************************************************/
+  @media (min-width: 768px) {
+
+ 
+
+
+  }
