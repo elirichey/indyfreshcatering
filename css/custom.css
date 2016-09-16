@@ -407,9 +407,17 @@ i.icon.icon-email.footer-contact-links {
 	padding: 4px 0px;
 	width: 230px;
 	margin: auto;
-}
-.button-text {
 	color: #000000;
 	font-weight: bold;
-	
+}
+.over-dark-button:hover {
+	display: block;
+	background: #FFFFFF;
+	border: solid 3px #820a0b;
+	border-radius: 23px;
+	padding: 4px 0px;
+	width: 230px;
+	margin: auto;
+	color: #144e15;
+	font-weight: bold;
 }
