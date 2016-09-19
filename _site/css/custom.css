@@ -128,7 +128,6 @@ i.icon.icon-email.header-contact-links {
     color: #820a0b;
 }
 
-
 #top-footer {	
 	display: block;
 	height: 50px;
@@ -459,7 +458,24 @@ i.icon.icon-email.footer-contact-links {
     border-radius: 23px;
     color: #000000;
 }
+.sub-menu-active {
+	display: inline-block;
+	width: 100%;
+	background: white;
+	padding-top: 5px;
+    padding-bottom: 3px;
+    border-radius: 23px;
+    color: #000000;
+}
 
+#menu-overview-hero {
+	background-image: url("../img/placeholder-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 430px;
+	position: relative;
+	z-index: 0;
+}
 #italian-hero {
 	background-image: url("../img/italian-hero.jpg");
     background-size: cover;
@@ -471,7 +487,7 @@ i.icon.icon-email.footer-contact-links {
 .menu-h1 {
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
-	padding-top: 163px;
+	padding-top: 169px;
 }
 
 #sub-menu-sub-categories {
@@ -481,8 +497,165 @@ i.icon.icon-email.footer-contact-links {
 .accordion {
     border: 0px solid transparent;
 }
+.accordion li {
+	margin-bottom: 23px;
+}
+.accordion-content {
+    padding: 1.25rem 1rem;
+    display: none;
+    border-bottom: solid 0px transparent !important;
+}
+.accordion-title {
+	padding: 0px !important;
+}
+.accordion-title::before {
+	display: none !important;
+}
 .accordion-title-text {
+	display: block;
+	width: 100%;
 	font-size: 36px;
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+	padding-top: 23px;
+}
+.click-me-container {
+	display: block;
+	background: #144e15;
+	width: 169px;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 50% 50% 0% 0%;
+	border-top: solid 3px #FFFFFF;
+    border-left: solid 3px #FFFFFF;
+    border-right: solid 3px #FFFFFF;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: -41px;
+	margin-bottom: -3px;
+	padding-top: 23px;
+}
+.click-me-container:focus {
+	background: #FF0000;
+}
+.click-me-text {
+    display: block;
+    padding-bottom: 7px;
+    margin-top: -7px;	
+}
+
+
+#appetizers-label {
+	border-radius: 23px;	
+	border: solid 3px #144e15;
+    padding: 3px !important;
+}
+a#appetizers-label.accordion-title:hover {
+	background-color: #FFFFFF;	
+}
+a#appetizers-label.accordion-title:focus {
+	background-color: #FFFFFF;
+	border: solid 3px #ff0000;
+    padding: 3px !important;
+}
+
+#pastasauces-label {
+	border-radius: 23px;
+	border: solid 3px #144e15;
+    padding: 3px !important;	
+}
+a#pastasauces-label.accordion-title:hover {
+	background-color: #FFFFFF;
+}
+a#pastasauces-label.accordion-title:focus {
+	background-color: #FFFFFF;
+	border: solid 3px #ff0000;
+    padding: 3px !important;
+}
+
+#entrees-label {
+	border-radius: 23px;	
+	border: solid 3px #144e15;
+    padding: 3px !important;	
+}
+a#entrees-label.accordion-title:hover {
+	background-color: #FFFFFF;
+}
+a#entrees-label.accordion-title:focus {
+	background-color: #FFFFFF;
+	border: solid 3px #ff0000;
+    padding: 3px !important;
+}
+
+#lasagna-label {
+	border-radius: 23px;	
+	border: solid 3px #144e15;
+    padding: 3px !important;	
+}
+a#lasagna-label.accordion-title:hover {
+	background-color: #FFFFFF;
+}
+a#lasagna-label.accordion-title:focus {
+	background-color: #FFFFFF;
+	border: solid 3px #ff0000;
+    padding: 3px !important;
+}
+
+#sides-label {
+	border-radius: 23px;	
+	border: solid 3px #144e15;
+    padding: 3px !important;	
+}
+a#sides-label.accordion-title:hover {
+	background-color: #FFFFFF;
+}
+a#sides-label.accordion-title:focus {
+	background-color: #FFFFFF;
+	border: solid 3px #ff0000;
+    padding: 3px !important;
+}
+
+.appetizers-text-container {	
+	background: url("../img/home-hero.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 18px;
+	height: 123px;
+}
+.pastasauces-text-container {	
+	background: url("../img/home-about-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 18px;
+    height: 123px;	
+}
+.entrees-text-container {	
+	background: url("../img/home-hero.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+.lasagna-text-container {	
+	background: url("../img/cta-bg.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+	height: 123px;
+}
+.sides-text-container {	
+	background: url("../img/home-hero.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+
+
+.sub-category-item-image {	
+}
+.sub-category-item-title {	
+	margin-top: 23px;
+}
+.sub-category-item-text {	
 }
