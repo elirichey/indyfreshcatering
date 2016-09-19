@@ -171,6 +171,12 @@ li.drop-menu-text.is-submenu-item.is-dropdown-submenu-item:hover {
 .custom-menu-text:hover {
     color: #820a0b;
 }
+#mobile-menu {
+	display: none;
+}
+.menu-list {
+	list-style: none;
+}
 
 #top-footer {	
 	display: block;
@@ -243,8 +249,9 @@ i.icon.icon-email.footer-contact-links {
 	background: #144e15;
 }
 .copyright {
-	padding-top: 7px;
-	color: rgba(255, 255, 255, 0.72);
+	padding-top: 23px;
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 0px;
 }
 
 /* menu foundational styles (layout > menu.html)*/

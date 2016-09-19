@@ -169,6 +169,48 @@
 		  padding: 0px 0px;
 	  }
 	  
+	  #menu-bar {
+		  display: none;
+	  }
+	  .mobile-menu-base {
+		  color: #FFFFFF;
+		  font-size: 23px;
+		  padding-bottom: 6px;
+		  text-align: center !important;
+	  }	 	  	  
+	  .button {
+		  width: 100% !important;
+		  background: #820a0b !important;
+		  color: #FFFFFF !important;
+		  font-size: 24px !important;
+		  padding: 9px 0px !important;
+		  margin-bottom: 0px !important;
+	  }
+	  ul.submenu.text-center {
+		  width: 100%;
+		  display: inline-block;
+		  background: rgba(20, 78, 21, 0.13);
+		  color: #000000;
+	  }
+	  div.mobile-menu-menu li {
+		  padding-top: 17px;
+		  padding-bottom: 17px;
+		  width: 100%;
+		  display: inline-block;
+	  }
+	  .mobile-menu-item {
+		  color: #000000 !important;
+	  }
+	  a#toggle-mobile-menu-menu.button {
+		  background: #878787 !important;
+	  }
+	  a#toggle-mobile-menu-events.button {
+		  background: #878787 !important;
+	  }
+	  a#toggle-mobile-menu-bundles.button {
+		  background: #878787 !important;
+	  }
+	  
 	  
 	  
 
@@ -213,9 +255,67 @@
 		  display: block;
 		  height: 143px;
 		  box-shadow: 0px 0px 3px #000000;
+	  }	  
+	  
+	  nav {
+		  display: none !important;
 	  }
-	  #main-menu {
-		  display: none;
+	  .mobile-menu-base {
+		  color: #FFFFFF;
+		  font-size: 23px;
+		  padding-bottom: 6px;
+		  text-align: center !important;
+	  }	 	  	  
+	  .button {
+		  width: 100% !important;
+		  background: #820a0b !important;
+		  color: #FFFFFF !important;
+		  font-size: 24px !important;
+		  padding: 9px 0px !important;
+		  margin-bottom: 0px !important;
+	  }
+	  .mobile-menu-item {
+		  color: #000000 !important;
+	  }
+	  div.mobile-menu-base li {
+		  margin-top: 13px;
+		  margin-bottom: 23px;
+	  }
+	  a#toggle-mobile-menu-menu.button {
+		  background: #878787 !important;
+	  }
+	  a#toggle-mobile-menu-events.button {
+		  background: #878787 !important;
+	  }
+	  a#toggle-mobile-menu-bundles.button {
+		  background: #878787 !important;
+	  }
+	  ul.submenu.text-center {
+		  width: 100%;
+		  display: inline-block;
+		  background: rgba(20, 78, 21, 0.13);
+		  color: #000000;
+	  }
+	  div.mobile-menu-menu li {
+		  padding-top: 17px;
+		  padding-bottom: 17px;
+		  width: 100%;
+		  display: inline-block;
+	  }
+	  div.mobile-menu-bundles li {
+		  padding-top: 17px;
+		  padding-bottom: 17px;
+		  width: 100%;
+		  display: inline-block;
+	  }
+	   div.mobile-menu-events li {
+		  padding-top: 17px;
+		  padding-bottom: 17px;
+		  width: 100%;
+		  display: inline-block;
+	  }
+	  a.drop-menu-text {
+		  color: #000000;
 	  }
 	  	  	  	  	  
 	  
