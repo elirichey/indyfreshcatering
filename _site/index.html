@@ -1,18 +1,20 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Indy Fresh Catering</title>
-  <meta name="description" content="Welome to Old Northside Bed & Breakfast">
-  <meta name="keywords" content="Old Northside Indianapolis Indiana Bed and Breakfast">
-  <meta name="robots" content="noindex">
-  <link rel="stylesheet" href="css/foundation.css" />
-  <link rel="stylesheet" href="css/custom.css" />
-  <link rel="stylesheet" href="css/social/style.css" />	
-  <link rel="stylesheet" href="css/responsive.css" />
-  <link rel="stylesheet" href="css/lightbox.css" />
-  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Indy Fresh Catering</title>
+	<meta name="description" content="Welome to Old Northside Bed & Breakfast">
+	<meta name="keywords" content="Old Northside Indianapolis Indiana Bed and Breakfast">
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/custom.css" />
+ 	<link rel="stylesheet" href="css/social/style.css" />	
+	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="stylesheet" href="css/lightbox.css" />
+	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
 </head>
 <body>
  
@@ -80,45 +82,55 @@
 				</a>				
 			</div>
 		
-			<div class="large-9 columns tablet-main-menu">
-				<ul id="main-menu">
+			<nav class="large-9 columns tablet-main-menu" data-topbar role="navigation">
+				<ul id="main-menu" class="dropdown menu" data-dropdown-menu>
 					<li>
-						<a href="/" class="home-link menu-text">						
+						<a href="/" class="home-link custom-menu-text">						
 							HOME
 						</a>
 					</li>
-					<li class="menu-text">
-						<a href="/menu-overview.html" class="menu-link menu-text">						
-							MENU
-						</a>
+					<li class="custom-menu-text">
+						<a href="/menu-overview.html" class="menu-link custom-menu-text">MENU</a>
+						<ul class="menu text-center">
+          					<li class="drop-menu-text"><a href="/menu-overview.html" class="drop-menu-text">OVERVIEW</a></li>
+							<li class="drop-menu-text"><a href="/breakfast.html" class="drop-menu-text">BREAKFAST</a></li>
+          					<li class="drop-menu-text"><a href="/bbq.html" class="drop-menu-text">BBQ</a></li>
+							<li class="drop-menu-text"><a href="/desserts.html" class="drop-menu-text">DESSERTS</a></li>
+          					<li class="drop-menu-text"><a href="/italian.html" class="drop-menu-text">ITALIAN</a></li>
+							<li class="drop-menu-text"><a href="/wraps-and-subs.html" class="drop-menu-text">WRAPS & SUBS</a></li>
+        				</ul>
 					</li>
 					<li>
-						<a href="#" class="bundles-link menu-text">						
-							BUNDLES
-						</a>
+						<a href="#" class="bundles-link custom-menu-text">BUNDLES</a>
 					</li>
 					<li>
-						<a href="#" class="events-link menu-text">						
-							EVENTS
-						</a>
+						<a href="/events-overview.html" class="events-link custom-menu-text">EVENTS</a>
+						<ul class="menu text-center">
+          					<li class="drop-menu-text"><a href="/.html" class="drop-menu-text">OVERVIEW</a></li>
+							<li class="drop-menu-text"><a href="/.html" class="drop-menu-text">CORPORATE</a></li>
+          					<li class="drop-menu-text"><a href="/.html" class="drop-menu-text">COMMUNITY</a></li>
+							<li class="drop-menu-text"><a href="/.html" class="drop-menu-text">RELIGIOUS</a></li>
+          					<li class="drop-menu-text"><a href="/.html" class="drop-menu-text">SOCIAL</a></li>
+							<li class="drop-menu-text"><a href="/.html" class="drop-menu-text">WEDDINGS</a></li>
+        				</ul>
 					</li>
 					<li>
-						<a href="#" class="qupte-link menu-text">						
+						<a href="#" class="qupte-link custom-menu-text">						
 							QUOTE
 						</a>
 					</li>
 					<li>
-						<a href="#" class="blog-link menu-text">
+						<a href="#" class="blog-link custom-menu-text">
 							BLOG
 						</a>
 					</li>
 					<li>
-						<a href="#" class="about-link menu-text">
+						<a href="#" class="about-link custom-menu-text">
 							ABOUT
 						</a>
 					</li>
 				</ul>
-			</div>
+			</nav>
 		</div>
 	</div>
      
@@ -144,7 +156,7 @@
 <div id="hero-tiles">
 	<div class="row text-center">
 		<div class="tile-container">
-			<a class="events-tile" href="/events.html">
+			<a class="events-tile" href="/events-overview.html">
 				<span class="tile-text">EVENTS</span>
 			</a>
 			<div class="under-tile-text">
@@ -154,7 +166,7 @@
 		</div>
 			
 		<div class="tile-container">	
-			<a class="menu-tile" href="/menu.html">
+			<a class="menu-tile" href="/menu-overview.html">
 				<span class="tile-text">MENU</span>
 			</a>
 			<div class="under-tile-text">
@@ -503,32 +515,38 @@
 
 
 
+	<!--
+	<script src="js/vendor/jquery.min.js"></script>
+	<script src="js/vendor/jquery.easing.min.js"></script>
+	<script src="js/vendor/jquery.easy-ticker.js"></script>
+	<script src="js/vendor/what-input.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script src="js/foundation.reveal.js"></script>
+	<script src="js/app.js"></script>
+	-->
+	
+	<script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
 
-  <script src="js/vendor/jquery.min.js"></script>
-  <script src="js/vendor/jquery.easing.min.js"></script>
-  <script src="js/vendor/jquery.easy-ticker.js"></script>
-  <script src="js/vendor/what-input.min.js"></script>
-  <script src="js/lightbox.min.js"></script>
-  <script src="js/foundation.min.js"></script>
-  <script src="js/foundation.reveal.js"></script>
-  <script src="js/app.js"></script>
+	<!--
+	<script type="text/javascript">
+		$(document).ready(function(){
 
-
-  <script type="text/javascript">
-  $(document).ready(function(){
-
-    var dd = $('.testimonial-container').easyTicker({
-        direction: 'up',
-        speed: 'slow',
-        interval: 5000,
-        height: '230px',
-        visible: 1,
-        mousePause: 1,
-    }).data('easyTicker');
+			var dd = $('.testimonial-container').easyTicker({
+				direction: 'up',
+				speed: 'slow',
+				interval: 5000,
+				height: '230px',
+				visible: 1,
+				mousePause: 1,
+			}).data('easyTicker');
     
-  });
-  </script>
-  
+		});
+	</script>
+  	-->
 
 </body>
 </html>

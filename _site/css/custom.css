@@ -9,6 +9,9 @@
 body {
     background: #ffffff; 
 }
+.row {
+    max-width: 72rem !important;
+}
 
 p {
     font-family: main;
@@ -120,11 +123,52 @@ i.icon.icon-email.header-contact-links {
 	font-size: 18px;
 	margin: 0px 13px;
 }
+a.drop-menu-text {
+	color: #000000;
+}
+a.drop-menu-text:hover {
+	color: #FFFFFF;
+}
+li.drop-menu-text.is-submenu-item.is-dropdown-submenu-item {
+	margin: 0px 0px !important;
+	padding: 7px 0px !important;
+	display: block;
+}
+li.drop-menu-text.is-submenu-item.is-dropdown-submenu-item:hover {
+	background: #144e15 !important;
+	color: #FFFFFF !important;
+	width: 100%;
+}
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+	display: none !important;
+}
+.dropdown.menu > li.is-dropdown-submenu-parent > a {
+    padding-right: 1rem !important;
+}
+.dropdown.menu .submenu {
+    position: absolute;
+    top: 0;
+    left: 0% !important; 
+	right: 0% !important;
+    min-width: inherit;
+	width: 210px;
+    z-index: 1;
+    background: #ffffff !important;
+    border: 0px solid transparent !important;
+}
 .menu-text {
+    font-weight: bold;
+    color: inherit;
+    line-height: 1;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding: 0.5rem 1rem;
+}
+.custom-menu-text {
 	color: #000000;
 	font-weight: normal
 }
-.menu-text:hover {
+.custom-menu-text:hover {
     color: #820a0b;
 }
 
@@ -247,6 +291,12 @@ i.icon.icon-email.footer-contact-links {
 	float: left;
 	width: 33%;
 }
+.tile-container-alt {
+	display: inline-block;
+	float: none;
+	width: 33%;
+	margin: auto;
+}
 .events-tile {
 	display: block;
 	width: 320px;
@@ -283,6 +333,13 @@ i.icon.icon-email.footer-contact-links {
 .tile-text {
     display: block;
 	padding-top: 57px;
+	color: #FFFFFF;
+	font-size: 43px;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+}
+.tile-text-alt {
+    display: block;
+	padding-top: 27px;
 	color: #FFFFFF;
 	font-size: 43px;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
@@ -469,6 +526,30 @@ i.icon.icon-email.footer-contact-links {
 }
 
 #menu-overview-hero {
+	background-image: url("../img/menu-overview-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 430px;
+	position: relative;
+	z-index: 0;
+}
+#breakfast-hero {
+	background-image: url("../img/breakfast-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 430px;
+	position: relative;
+	z-index: 0;
+}
+#bbq-hero {
+	background-image: url("../img/bbq-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 430px;
+	position: relative;
+	z-index: 0;
+}
+#desserts-hero {
 	background-image: url("../img/placeholder-hero.jpg");
     background-size: cover;
 	background-position: center bottom;
@@ -484,6 +565,23 @@ i.icon.icon-email.footer-contact-links {
 	position: relative;
 	z-index: 0;
 }
+#wraps-and-subs-hero {
+	background-image: url("../img/placeholder-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 430px;
+	position: relative;
+	z-index: 0;
+}
+
+#events-overview-hero {
+	background-image: url("../img/events-overview-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 430px;
+	position: relative;
+	z-index: 0;
+}
 .menu-h1 {
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
@@ -493,6 +591,33 @@ i.icon.icon-email.footer-contact-links {
 #sub-menu-sub-categories {
 	padding: 87px 0px;
 }
+#menu-overview-about {
+	padding-top: 87px;
+	padding-bottom: 25px;
+}
+#menu-overview-tiles {
+	padding-top: 25px;
+	padding-bottom: 87px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .accordion {
     border: 0px solid transparent;
@@ -543,7 +668,6 @@ i.icon.icon-email.footer-contact-links {
     padding-bottom: 7px;
     margin-top: -7px;	
 }
-
 
 #appetizers-label {
 	border-radius: 23px;	
@@ -650,7 +774,6 @@ a#sides-label.accordion-title:focus {
 	border-radius: 18px;
     height: 123px;	
 }
-
 
 .sub-category-item-image {	
 }
