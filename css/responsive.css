@@ -179,6 +179,7 @@
 		  text-align: center !important;
 	  }	 	  	  
 	  .button {
+		  display: inline-block;
 		  width: 100% !important;
 		  background: #820a0b !important;
 		  color: #FFFFFF !important;
@@ -202,7 +203,7 @@
 		  color: #000000 !important;
 	  }
 	  a#toggle-mobile-menu-menu.button {
-		  background: #878787 !important;
+		  background: #878787 !important;		  
 	  }
 	  a#toggle-mobile-menu-events.button {
 		  background: #878787 !important;
@@ -265,8 +266,9 @@
 		  font-size: 23px;
 		  padding-bottom: 6px;
 		  text-align: center !important;
-	  }	 	  	  
+	  }		  
 	  .button {
+		  display: inline-block;
 		  width: 100% !important;
 		  background: #820a0b !important;
 		  color: #FFFFFF !important;
@@ -446,8 +448,12 @@
   Min Width "767px"
   *******************************************************************************/
   @media (min-width: 768px) {
-
- 
-
+	  
+	  .button {
+		  display: none;
+	  }
+	  .mobile-menu-base {
+		  display: none !important;
+	  }
 
   }
