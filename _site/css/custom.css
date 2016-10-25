@@ -122,6 +122,7 @@ i.icon.icon-email.header-contact-links {
 	font-size: 18px;
 	margin: 0px 13px;
 }
+
 a.drop-menu-text {
 	color: #000000;
 }
@@ -504,6 +505,12 @@ i.icon.icon-email.footer-contact-links {
 	font-size: 18px;
 	margin: 0px;
 	color: #FFFFFF;
+}
+.alt-menu-li-large {
+	width: 14.5% !important;
+}
+.alt-menu-li-small {
+	width: 10.5% !important;
 }
 .sub-menu-text {
 	display: block;
