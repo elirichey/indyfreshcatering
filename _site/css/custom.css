@@ -255,6 +255,12 @@ i.icon.icon-email.footer-contact-links {
 }
 
 /* menu foundational styles (layout > menu.html)*/
+
+.menu-top-margin {
+	margin-top: 50px;
+}
+
+
 /* packages foundational styles (layout > packages.html)*/
 /* events foundational styles (layout > events.html)*/
 
@@ -500,34 +506,44 @@ i.icon.icon-email.footer-contact-links {
 }
 #menu-menu li {
 	display: inline-block;
-	width: 12.5%;
 	font-family: main;
 	font-size: 18px;
-	margin: 0px;
+    margin: 0px 3px;
 	color: #FFFFFF;
 }
+.appetizers-menu-menu-sizing {
+	width: 8.5% !important;
+}
+
+/*
 .alt-menu-li-large {
 	width: 14.5% !important;
 }
 .alt-menu-li-small {
 	width: 10.5% !important;
 }
+*/
+
 .sub-menu-text {
 	display: block;
 	width: 100%;
 	color: #FFFFFF;
 	padding-top: 5px;
+	padding-left: 23px;
+    padding-right: 23px;
 	font-weight: normal		
 }
 a.sub-menu-text {
-	font-size: 16px;
+	font-size: 16px;	
 }
 .sub-menu-text:hover {
 	display: inline-block;
 	width: 100%;
+	padding-top: 7px;
+    padding-bottom: 4px;
+	padding-left: 23px;
+    padding-right: 23px;
 	background: white;
-	padding-top: 5px;
-    padding-bottom: 3px;
     border-radius: 23px;
     color: #000000;
 }
@@ -537,6 +553,8 @@ a.sub-menu-text {
 	background: white;
 	padding-top: 7px;
     padding-bottom: 4px;
+	padding-left: 23px;
+    padding-right: 23px;
     border-radius: 23px;
     color: #000000;
 }
