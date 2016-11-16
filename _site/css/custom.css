@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: main;
-    src: url("../css/fonts/Calibri.ttf");
+    src: url("../css/fonts/news-gothic.otf");
 }
 
 body {
@@ -120,7 +120,7 @@ i.icon.icon-email.header-contact-links {
 	display: inline-block;
 	font-family: main;
 	font-size: 18px;
-	margin: 0px 13px;
+	margin: 0px 12px;
 }
 
 a.drop-menu-text {
