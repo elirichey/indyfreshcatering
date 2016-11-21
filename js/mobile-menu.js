@@ -1,3 +1,7 @@
+
+
+// Main Menu Drop Down
+
 $(document).ready(function() {
     $('.mobile-menu-base').hide().before('<a href="#" id="toggle-mobile-menu-base" class="button">MAIN MENU</a>');
     $('a#toggle-mobile-menu-base').click(function() {
@@ -6,6 +10,10 @@ $(document).ready(function() {
     });
 });
 
+
+
+
+// Secondary Menu Drop Downs
 
 $(document).ready(function() {
     $('.mobile-menu-menu').hide().before('<a href="#" id="toggle-mobile-menu-menu" class="button">MENU</a>');
@@ -16,9 +24,9 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('.mobile-menu-bundles').hide().before('<a href="#" id="toggle-mobile-menu-bundles" class="button">BUNDLES</a>');
-    $('a#toggle-mobile-menu-bundles').click(function() {
-        $('.mobile-menu-bundles').slideToggle(1000);
+    $('.mobile-menu-packages').hide().before('<a href="#" id="toggle-mobile-menu-packages" class="button">PACKAGES</a>');
+    $('a#toggle-mobile-menu-packages').click(function() {
+        $('.mobile-menu-packages').slideToggle(1000);
         return false;
     });
 });

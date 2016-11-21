@@ -194,22 +194,24 @@
 		  color: #000000;
 	  }
 	  div.mobile-menu-menu li {
-		  padding-top: 17px;
-		  padding-bottom: 17px;
 		  width: 100%;
 		  display: inline-block;
 	  }
 	  .mobile-menu-item {
+          margin-bottom: 13px;
 		  color: #000000 !important;
 	  }
 	  a#toggle-mobile-menu-menu.button {
-		  background: #878787 !important;		  
+          color: #000000 !important;
+		  background: #FFFFFF !important;		  
 	  }
 	  a#toggle-mobile-menu-events.button {
-		  background: #878787 !important;
+          color: #000000 !important;
+		  background: #FFFFFF !important;
 	  }
 	  a#toggle-mobile-menu-packages.button {
-		  background: #878787 !important;
+          color: #000000 !important;
+		  background: #FFFFFF !important;
 	  }
 	  
 	  
@@ -281,16 +283,19 @@
 	  }
 	  div.mobile-menu-base li {
 		  margin-top: 13px;
-		  margin-bottom: 23px;
+		  margin-bottom: 13px;
 	  }
 	  a#toggle-mobile-menu-menu.button {
-		  background: #878787 !important;
+          color: #000000 !important;
+		  background: #FFFFFF !important;
 	  }
 	  a#toggle-mobile-menu-events.button {
-		  background: #878787 !important;
+          color: #000000 !important;
+		  background: #FFFFFF !important;
 	  }
 	  a#toggle-mobile-menu-packages.button {
-		  background: #878787 !important;
+          color: #000000 !important;
+		  background: #FFFFFF !important;
 	  }
 	  ul.submenu.text-center {
 		  width: 100%;
@@ -299,23 +304,21 @@
 		  color: #000000;
 	  }
 	  div.mobile-menu-menu li {
-		  padding-top: 17px;
-		  padding-bottom: 17px;
 		  width: 100%;
 		  display: inline-block;
 	  }
 	  div.mobile-menu-packages li {
-		  padding-top: 17px;
-		  padding-bottom: 17px;
 		  width: 100%;
 		  display: inline-block;
 	  }
 	   div.mobile-menu-events li {
-		  padding-top: 17px;
-		  padding-bottom: 17px;
 		  width: 100%;
 		  display: inline-block;
 	  }
+      .mobile-menu-padding {
+          padding-top: 13px;
+          padding-bottom: 13px;
+      }
 	  a.drop-menu-text {
 		  color: #000000;
 	  }
