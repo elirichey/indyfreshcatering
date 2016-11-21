@@ -566,6 +566,25 @@ i.icon.icon-email.footer-contact-links {
     padding: 16px 32px;
 }
 
+#free-delivery {
+    background: #144e15;
+    padding: 63px 0px;
+}
+.free-delivery-text {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+}
+.free-delivery-1 {
+    margin: 0px 36px;
+}
+.free-delivery-2 {
+    margin: 0px 36px;
+}
+.free-delivery-3 {
+    margin: 0px 36px;
+}
+
 #home-about {
 	background-image: url("../img/home-about-bg.jpg");
     background-size: cover;

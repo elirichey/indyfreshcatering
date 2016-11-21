@@ -375,6 +375,15 @@
 	  .packages-tile {
 		  width: 300px;
 	  }
+      .free-delivery-1 {
+          margin: auto;
+      }
+      .free-delivery-2 {
+          display: none !important;
+      }
+      .free-delivery-3 {
+          display: none !important;
+      }
 	  #home-about {
 		  background-image: url(../img/home-about-bg.jpg);
 		  background-size: cover;
