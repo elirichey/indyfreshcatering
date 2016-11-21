@@ -284,18 +284,23 @@ i.icon.icon-email.footer-contact-links {
 	
 }
 
+.package-middle-row {    
+    margin: 50px auto !important;
+}
+
 .package-image {
 	display: block;
 }
 
 .package-title {
-	
+	display: block;
+    margin: 13px 0px;
 }
 .package-text {
-	
+	display: block;
 }
 .package-price-per-person {
-	
+	display: block;
 }
 
 

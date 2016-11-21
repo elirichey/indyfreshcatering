@@ -1,0 +1,69 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'jekyll'
+require 'glynn'
+require 'io/console'
+$:.unshift File.join(File.dirname(__FILE__), *%w[.. lib])
+
+
+options = {}
+case ARGV.size
+  when 0
+  when 1
+    options['destination'] = ARGV[0]
+  when 2
+    options['source'] = ARGV[0]
+    options['destination'] = ARGV[1]
+  when 4
+    options['source'] = ARGV[0]
+    options['destination'] = ARGV[1]
+    options['ftp_username'] = ARGV[2]
+    options['ftp_password'] = ARGV[3]
+end
+options    = Jekyll.configuration(options)
+ftp_port   = (options['ftp_port'] || 21).to_i
+passive    = options['ftp_passive'] || true
+ftp_secure = options['ftp_secure'] || false
+
+# If _glynn.yml exists, load and merge these options
+if File.file?('_glynn.yml')
+  options = options.merge(YAML.load_file('_glynn.yml'))
+end
+
+puts "Building site: #{options['source']} -> #{options['destination']}"
+jekyll = Glynn::Jekyll.new
+jekyll.build
+puts "Successfully generated site"
+
+puts "Sending site over FTP (host: #{options['ftp_host']}, port: #{ftp_port}, ftps: #{ftp_secure})"
+begin
+  if options['ftp_username'].nil?
+    print "FTP Username: "
+    username = $stdin.gets.chomp
+  else
+    username = options['ftp_username']
+  end
+
+  if options['ftp_password'].nil?
+    print "FTP Password: "
+    # Get the password without echoing characters
+    password = $stdin.noecho(&:gets).chomp
+  else
+    password = options['ftp_password']
+  end
+rescue NoMethodError, Interrupt
+  # When the process is exited, we display the characters again
+  # And we exit
+  system "stty echo"
+  exit
+end
+
+ftp = Glynn::Ftp.new(options['ftp_host'], ftp_port, {
+  :username => username,
+  :password => password,
+  :passive  => passive,
+  :secure   => ftp_secure
+})
+puts "\r\nConnected to server. Sending site"
+ftp.sync(options['destination'], options['ftp_dir'])
+puts "Successfully sent site"
