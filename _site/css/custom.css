@@ -1129,6 +1129,86 @@ a#sides-label.accordion-title:focus {
 	border-radius: 18px;
     height: 123px;	
 }
+.pasta-pasta-text-container {	
+	background: url("../img/pasta-noodles.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+.pasta-sauce-text-container {	
+	background: url("../img/pasta-sauce.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+.soups-soup-text-container {	
+	background: url("../img/soups-chili.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+.soups-salad-text-container {	
+	background: url("../img/soups-salad.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+.soups-dressing-text-container {	
+	background: url("../img/soups-dressing.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+.wraps-sandwich-text-container {	
+	background: url("../img/wraps-sandwich.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+.wraps-sliders-text-container {	
+	background: url("../img/wraps-sliders.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+.wraps-platters-text-container {	
+	background: url("../img/wraps-platters.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+
+.sides-deli-text-container {	
+	background: url("../img/sides-deli.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+.sides-desserts-text-container {	
+	background: url("../img/sides-desserts.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+.sides-drinks-text-container {	
+	background: url("../img/sides-drinks.jpg");
+	background-size: cover;
+	background-position: center;	
+	border-radius: 18px;
+    height: 123px;	
+}
+
+
 .sides-text-container {	
 	background: url("../img/home-hero.jpg");
 	background-size: cover;
