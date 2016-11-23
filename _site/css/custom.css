@@ -871,6 +871,14 @@ a.sub-menu-text {
 	position: relative;
 	z-index: 0;
 }
+#sides-hero {
+	background-image: url("../img/sides-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 430px;
+	position: relative;
+	z-index: 0;
+}
 #wraps-and-subs-hero {
 	background-image: url("../img/bbq-hero.jpg");
     background-size: cover;
@@ -1072,8 +1080,29 @@ a#sides-label.accordion-title:focus {
 	border-radius: 18px;
     height: 123px;	
 }
+.lasagna-text-container {	
+	background: url("../img/entrees-lasagna.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 18px;
+    height: 123px;	
+}
+.meatballs-text-container {	
+	background: url("../img/entrees-meatballs.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 18px;
+    height: 123px;	
+}
 .apps-meats-text-container {	
 	background: url("../img/apps-meats.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 18px;
+    height: 123px;	
+}
+.entrees-italian-text-container {	
+	background: url("../img/entrees-italian.jpg");
 	background-size: cover;
 	background-position: center;
 	border-radius: 18px;
@@ -1085,13 +1114,6 @@ a#sides-label.accordion-title:focus {
 	background-position: center;	
 	border-radius: 18px;
     height: 123px;	
-}
-.lasagna-text-container {	
-	background: url("../img/cta-bg.jpg");
-	background-size: cover;
-	background-position: center;	
-	border-radius: 18px;
-	height: 123px;
 }
 .sides-text-container {	
 	background: url("../img/home-hero.jpg");
