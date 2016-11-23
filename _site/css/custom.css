@@ -1108,6 +1108,20 @@ a#sides-label.accordion-title:focus {
 	border-radius: 18px;
     height: 123px;	
 }
+.entrees-chicken-text-container {	
+	background: url("../img/entrees-mariniated-chicken.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 18px;
+    height: 123px;	
+}
+.entrees-bbq-grill-text-container {	
+	background: url("../img/entrees-bbq-grill.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 18px;
+    height: 123px;	
+}
 .entrees-text-container {	
 	background: url("../img/home-hero.jpg");
 	background-size: cover;
