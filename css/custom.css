@@ -26,7 +26,7 @@ h1 {
     margin-bottom: -10px; 
 }
 h2 { 
-    font-family: main;
+    font-family: main; 
     font-size: 43px;
 	color: #000000;
     margin-bottom: -10px;
@@ -455,7 +455,40 @@ i.icon.icon-email.footer-contact-links {
 	font-weight: bold;
 }
 
+.testimonials-container {
+    display: block;
+}
+.testimonial-base {
+    border: solid 3px #144e15;
+}
 
+.testimonial-top-container {
+    display: block;
+    background: #144e15;
+    height: 60px;
+    text-align: center;
+}
+.testimonial-top-title {
+    font-size: 32px;
+    color: #FFFFFF;
+    padding-top: 9px;
+}
+
+.testimonial-image-container { 
+    border-bottom: solid 3px #144e15;
+}
+
+.testimonial-bottom-container {    
+    display: block;
+    padding: 23px;
+}
+.testimonial-bottom-text {
+    
+}
+.testimonial-bottom-source {
+    font-family: main;
+    font-weight: bold;
+}
 
 
 
