@@ -417,7 +417,7 @@
 	  }
 	  #community-partners-intro {
 		  padding: 50px 0px;
-		  padding-bottom: 36px;
+		  padding-bottom: 0px;
 	  }
 	  #community-partners-list {
 		  padding-bottom: 50px;
@@ -444,6 +444,21 @@
 	  #menu-bar {
 		  display: none;
 	  }
+      
+      
+      .sub-category-item-text {	
+          padding-bottom: 43px;
+      }
+      .package-text {
+          padding-bottom: 43px;
+      }
+      
+      .event-tag-line {
+          text-align: center;
+      }
+      .process-item-text {
+          padding-bottom: 43px;
+      }
 	  
 
 }
