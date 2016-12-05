@@ -529,8 +529,8 @@ i.icon.icon-email.footer-contact-links {
 	display: block;
 	position: relative;
 	z-index: 1000;
-	margin-top: -45px;
-	margin-bottom: 50px;
+	margin-top: -27px;
+	margin-bottom: 101px;
 }
 .tile-container {
 	display: inline-block;
@@ -575,11 +575,18 @@ i.icon.icon-email.footer-contact-links {
 	border-radius: 23px;
 }
 
-.tile-text {
+.home-tile-text {
     display: block;
 	padding-top: 18px;
 	color: #000000;
 	font-size: 43px;
+}
+
+.tile-text {
+    display: block;
+	padding-top: 18px;
+	color: #000000;
+	font-size: 27px;
 }
 .tile-text-alt {
     display: block;
@@ -590,13 +597,15 @@ i.icon.icon-email.footer-contact-links {
 }
 
 #free-delivery {
-    background: #e6d500;
-    padding: 63px 0px;
+    background-image: url("../img/free-delivery-bg.jpg");
+    background-size: cover;
+	background-position: center;
+    padding: 101px 0px;
 }
 .free-delivery-text {
-    color: #000000;
+    color: #FFFFFF;
     font-weight: bold;
-    text-shadow: 0px 0px 3px rgb(255, 255, 255), 0px 0px 7px rgb(255, 255, 255), 0px 0px 13px rgb(255, 255, 255), 0px 0px 23px rgb(255, 255, 255), 0px 0px 32px rgb(255, 255, 255);
+    text-shadow: 0px 0px 1px rgb(18, 78, 30), 0px 0px 3px rgb(18, 78, 30), 0px 0px 5px rgb(18, 78, 30), 0px 0px 7px rgb(18, 78, 30), 0px 0px 11px rgb(18, 78, 30);
 }
 .free-delivery-1 {
     margin: 0px 36px;
@@ -627,7 +636,8 @@ i.icon.icon-email.footer-contact-links {
 }
 
 #home-value {
-	margin: 87px 0px;
+    margin-top: 151px;
+    margin-bottom: 121px;
 }
 .value-middle-row-margin {
 	margin: 50px 0px;
@@ -655,9 +665,9 @@ i.icon.icon-email.footer-contact-links {
 	font-weight: bold;
 }
 
-#community-partners-intro {
+#community-partners-intro { 
 	background: #FFFFFF;
-	padding: 63px 0px;
+	padding: 101px 0px;
     padding-bottom: 0px;
 }
 .community-partners-title {
@@ -671,7 +681,7 @@ i.icon.icon-email.footer-contact-links {
 
 #community-partners-list {	
 	padding-top: 36px;
-	padding-bottom: 87px;
+	padding-bottom: 151px;
 }
 .community-partners-middle-row {
 	padding: 50px 0px;
@@ -740,18 +750,20 @@ i.icon.icon-email.footer-contact-links {
 #menu-bar {
 	display: block;
 	height: 44px;
-	background: #820a0b;
+	background: #FFFFFF;
+    border-top: solid 2px #820a0b;
+    border-bottom: solid 2px #820a0b;
 }
 #menu-menu {
 	text-align: center;
-	padding-top: 4px;
+	padding-top: 2px;
 }
 #menu-menu li {
 	display: inline-block;
 	font-family: main;
 	font-size: 18px;
     margin: 0px 3px;
-	color: #FFFFFF;
+	color: #820a0b;
 }
 .appetizers-menu-menu-sizing {
 	width: 8.5% !important;
@@ -760,7 +772,7 @@ i.icon.icon-email.footer-contact-links {
 .sub-menu-text {
 	display: block;
 	width: 100%;
-	color: #FFFFFF;
+	color: #000000;
 	padding-top: 5px;
 	padding-left: 23px;
     padding-right: 23px;
@@ -776,20 +788,20 @@ a.sub-menu-text {
     padding-bottom: 4px;
 	padding-left: 23px;
     padding-right: 23px;
-	background: white;
+	background: #820a0b;
     border-radius: 23px;
-    color: #000000;
+    color: #FFFFFF;
 }
 .sub-menu-active {
 	display: inline-block;
 	width: 100%;
-	background: white;
+	background: #820a0b;
 	padding-top: 7px;
     padding-bottom: 4px;
 	padding-left: 23px;
     padding-right: 23px;
     border-radius: 23px;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 #menu-overview-hero {

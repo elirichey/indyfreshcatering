@@ -24,7 +24,7 @@
 	  .row {
 		  max-width: 47.5rem !important;
 	  }
-	  
+
 	  .top-contact {
 		  padding-top: 8px;
 		  width: 55%;
@@ -459,6 +459,97 @@
       .process-item-text {
           padding-bottom: 43px;
       }
+      
+      #appetizers-label {
+          border-radius: 0px;	
+      }
+      #pastasauces-label {
+          border-radius: 0px;
+      }
+      #entrees-label {
+          border-radius: 0px;	
+      }
+      #lasagna-label {
+          border-radius: 0px;	
+      }
+      #sides-label {
+          border-radius: 0px;	
+      }
+      
+      .appetizers-text-container {	
+          border-radius: 0px;
+      }
+      .pastasauces-text-container {	
+          border-radius: 0px;
+      }
+      .apps-platters-text-container {	
+          border-radius: 0px;
+      }
+      .apps-indy-fresh-text-container {	
+          border-radius: 0px;
+      }
+      .apps-classic-veggies-text-container {	
+          border-radius: 0px;
+      }
+      .lasagna-text-container {	
+          border-radius: 0px;
+      }
+      .meatballs-text-container {	
+          border-radius: 0px;
+      }
+      .apps-meats-text-container {	
+          border-radius: 0px;
+      }
+      .entrees-italian-text-container {	
+          border-radius: 0px;
+      }
+      .entrees-chicken-text-container {	
+          border-radius: 0px;
+      }
+      .entrees-bbq-grill-text-container {	
+          border-radius: 0px;
+      }
+      .entrees-text-container {	
+          border-radius: 0px;
+      }
+      .pasta-pasta-text-container {	
+          border-radius: 0px;
+      }
+      .pasta-sauce-text-container {	
+          border-radius: 0px;
+      }
+      .soups-soup-text-container {	
+          border-radius: 0px;
+      }
+      .soups-salad-text-container {	
+          border-radius: 0px;
+      }
+      .soups-dressing-text-container {	
+          border-radius: 0px;
+      }
+      .wraps-sandwich-text-container {	
+          border-radius: 0px;
+      }
+      .wraps-sliders-text-container {	
+          border-radius: 0px;
+      }
+      .wraps-platters-text-container {	
+          border-radius: 0px;
+      }
+      .sides-deli-text-container {	
+          border-radius: 0px;
+      }
+      .sides-desserts-text-container {	
+          border-radius: 0px;
+      }
+      .sides-drinks-text-container {	
+          border-radius: 0px;
+      }
+      
+      .accordion-title-text {
+          font-size: 27px;
+      }
+
 	  
 
 }
