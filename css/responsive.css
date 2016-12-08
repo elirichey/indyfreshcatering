@@ -159,7 +159,7 @@
 		  margin-top: 50px;
 	  }
 	  .how-we-serve-mobile {
-		  width: 50%;
+		  width: 100%;
 	  }
 	  div.large-2.columns {
 		  width: 50%;
@@ -403,13 +403,14 @@
 		  margin-top: 0px;
 		  margin-bottom: 23px;
 	  }
-	  .how-we-serve-title {
+	  .how-we-serve-section-title {
 		  margin-top: 50px;
 	  }
 	  .how-we-serve-mobile {
 		  display: inline-block;
-		  width: 50%;		  
-		  float: left;
+		  width: 100%;		  
+		  float: none;
+          text-align: center;
 	  }
 	  div.large-2.columns {
 		  width: 50%;

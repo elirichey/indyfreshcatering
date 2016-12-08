@@ -114,13 +114,13 @@ i.icon.icon-email.header-contact-links {
 }
 #main-menu {
 	float: right;
-	padding-top: 50px;
+	padding-top: 54px;
 }
 #main-menu li {
 	display: inline-block;
 	font-family: main;
-	font-size: 18px;
-	margin: 0px 12px;
+	font-size: 16px;
+	margin: 0px 7px;
 }
 
 a.drop-menu-text {
@@ -311,17 +311,6 @@ i.icon.icon-email.footer-contact-links {
 
 /* events foundational styles (layout > event-x.html)*/
 
-
-#events-overview-hero {
-	background-image: url("../img/events-overview-hero.jpg");
-    background-size: cover;
-	background-position: center bottom;
-    height: 430px;
-	position: relative;
-	z-index: 0;
-    padding: 16px;
-}
-
 #celebrations-event-hero {
 	background-image: url("../img/events-overview-hero.jpg");
     background-size: cover;
@@ -511,17 +500,17 @@ i.icon.icon-email.footer-contact-links {
 .home-h1 {
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
-	padding-top: 132px;
+	padding-top: 143px;
 	padding-bottom: 32px;
 }
 .home-hero-text-container {
 	text-align: center;
-	background: rgba(255, 255, 255, 0.72);
 	padding: 23px 23px;
 }
 .home-hero-text {
+    color: #FFFFFF;
 	font-weight: bold;
-	text-shadow: 0px 0px 3px rgba(255, 255, 255, 1), 0px 0px 7px rgba(255, 255, 255, 1), 0px 0px 13px rgba(255, 255, 255, 1), 0px 0px 23px rgba(255, 255, 255, 1), 0px 0px 32px rgba(255, 255, 255, 1);
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 5px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1);
 	margin-bottom: 0px !important;
 }
 
@@ -651,7 +640,15 @@ i.icon.icon-email.footer-contact-links {
 	
 }
 
-.how-we-serve-title {
+.how-we-serve-row {
+    padding: 23px 0px;
+    margin: 0px !important;
+}
+.how-we-serve-icon {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.how-we-serve-section-title {
 	text-align: center;
 }
 .how-we-serve-row {	
@@ -661,8 +658,10 @@ i.icon.icon-email.footer-contact-links {
 .how-we-serve-image {
 	margin-top: 23px;
 }
-.how-we-serve-text {
+.how-we-serve-title {
 	font-weight: bold;
+}
+.how-we-serve-text {
 }
 
 #community-partners-intro { 
@@ -761,10 +760,23 @@ i.icon.icon-email.footer-contact-links {
 #menu-menu li {
 	display: inline-block;
 	font-family: main;
-	font-size: 18px;
-    margin: 0px 3px;
-	color: #820a0b;
+	font-size: 16px;
+    margin: 0px 7px;
+	color: #FFFFFF;
 }
+
+#menu-events {
+	text-align: center;
+	padding-top: 2px;
+}
+#menu-events li {
+	display: inline-block;
+	font-family: main;
+	font-size: 18px;
+    margin: 0px 23px;
+	color: #FFFFFF;
+}
+
 .appetizers-menu-menu-sizing {
 	width: 8.5% !important;
 }
@@ -788,31 +800,23 @@ a.sub-menu-text {
     padding-bottom: 4px;
 	padding-left: 23px;
     padding-right: 23px;
-	background: #820a0b;
+	background: #FFFFFF;
     border-radius: 23px;
-    color: #FFFFFF;
+    color: #144e15;
 }
 .sub-menu-active {
 	display: inline-block;
 	width: 100%;
-	background: #820a0b;
+	background: #FFFFFF;
 	padding-top: 7px;
     padding-bottom: 4px;
 	padding-left: 23px;
     padding-right: 23px;
     border-radius: 23px;
-    color: #FFFFFF;
+    color: #144e15;
+    font-weight: bold;
 }
 
-#menu-overview-hero {
-	background-image: url("../img/menu-overview-hero.jpg");
-    background-size: cover;
-	background-position: center bottom;
-    height: 430px;
-	position: relative;
-	z-index: 0;
-    padding: 16px;
-}
 #breakfast-hero {
 	background-image: url("../img/breakfast-hero.jpg");
     background-size: cover;
@@ -895,14 +899,7 @@ a.sub-menu-text {
 #sub-menu-sub-categories {
 	padding: 87px 0px;
 }
-#menu-overview-about {
-	padding-top: 87px;
-	padding-bottom: 25px;
-}
-#menu-overview-tiles {
-	padding-top: 25px;
-	padding-bottom: 87px;
-}
+
 
 
 
@@ -1221,4 +1218,38 @@ a#sides-label.accordion-title:focus {
 	margin-top: 23px;
 }
 .sub-category-item-text {	
+}
+
+
+
+
+
+#quotes-hero {
+	background-image: url("../img/events-overview-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 430px;
+	position: relative;
+	z-index: 0;
+    padding: 16px;
+}
+#quotes-text {
+	padding-top: 87px;
+	padding-bottom: 72px;
+}
+
+
+#about-hero {
+	background-image: url("../img/events-overview-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 430px;
+	position: relative;
+	z-index: 0;
+    padding: 16px;
+}
+
+#about-text-about {
+	padding-top: 87px;
+	padding-bottom: 72px;
 }
