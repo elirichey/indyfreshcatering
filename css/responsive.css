@@ -24,6 +24,13 @@
 	  .row {
 		  max-width: 47.5rem !important;
 	  }
+      
+      .triangle-left {
+          border-right: 69px solid #820a0b;
+      }
+      .triangle-right {
+          border-left: 69px solid #820a0b;
+      }
 
 	  .top-contact {
 		  padding-top: 8px;
@@ -119,6 +126,7 @@
 		  padding-top: 93px;
 		  padding-bottom: 32px;
 		  font-size: 43px;
+          text-transform: inherit;
 	  }
 	  	  	  	  
 	  #hero-tiles {
@@ -244,6 +252,14 @@
   *******************************************************************************/
   @media (max-width: 767px) {
 	  
+      
+      .triangle-left {
+          display: none;
+      }
+      .triangle-right {
+          display: none;
+      }
+      
 	  #top-header {
 		  display: block;
 		  height: 95px;
@@ -372,8 +388,12 @@
 	  .home-h1 {
 		  padding-top: 87px;
 		  padding-bottom: 43px;
-		  font-size: 43px;		  
+		  font-size: 32px;	
+          text-transform: none;
 	  }
+      #home-value {
+          padding: 0px 32px;
+      }
 	  	  
 	  #hero-tiles {
 		  margin-top: 50px;
@@ -463,6 +483,10 @@
 		  display: none;
 	  }
       
+      
+      .menu-h1 {
+          font-size: 230%;
+      }
       
       .sub-category-item-text {	
           padding-bottom: 43px;
@@ -576,6 +600,7 @@
       .mobile-menu-layout {
           display: block;
       }
+            
 	  
 
 }
