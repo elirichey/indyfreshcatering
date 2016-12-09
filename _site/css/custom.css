@@ -633,18 +633,22 @@ i.icon.icon-email.footer-contact-links {
 .value-middle-row-margin {
 	margin: 50px 0px;
 }
-.value-image-container {
+.three-points-zero-to-one {
+    margin: 23px 0px;    
 }
-.value-image {
-	margin-top: 50px;
+.three-points-one-to-two {
+    margin: 23px 0px;
+    padding-bottom: 32px;
 }
-.value-text-container {
-	
+.three-points-two-to-three {
+    margin: 23px 0px;
 }
 
+#how-we-serve {
+    padding-bottom: 101px;
+}
 .how-we-serve-row {
-    padding: 23px 0px;
-    margin: 0px !important;
+    padding-top: 72px;
 }
 .how-we-serve-icon {
     padding-left: 0px !important;
@@ -652,6 +656,10 @@ i.icon.icon-email.footer-contact-links {
 }
 .how-we-serve-section-title {
 	text-align: center;
+    padding-bottom: 54px;
+    font-weight: bold;
+    padding: 0px 32px;
+    padding-bottom: 43px;
 }
 .how-we-serve-row {	
 	display: block;
@@ -661,9 +669,9 @@ i.icon.icon-email.footer-contact-links {
 	margin-top: 23px;
 }
 .how-we-serve-title {
-	font-weight: bold;
 }
 .how-we-serve-text {
+    padding: 0px 32px;
 }
 
 #community-partners-intro { 

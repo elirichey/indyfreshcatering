@@ -213,10 +213,23 @@
           color: #000000 !important;
 		  background: #FFFFFF !important;
 	  }
-	  
-      
+	       
       .mobile-menu-layout {
           display: none;
+      }
+            
+      #home-value {
+          margin-top: 151px;
+          margin-bottom: 121px;
+      }
+      .three-points-zero-to-one {
+          margin-top: 0px !important;
+      }
+      .three-points-one-to-two {
+          margin: 0px;
+      }
+      .three-points-two-to-three {
+          margin: 0px;
       }
 	  
 	  
