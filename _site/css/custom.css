@@ -629,13 +629,7 @@ i.icon.icon-email.footer-contact-links {
 	background-position: center;
     padding: 121px 0px;
 }
-/*
-.free-delivery-text {
-    color: #FFFFFF;
-    font-weight: bold;
-    text-shadow: 0px 0px 1px #000000, 0px 0px 3px #000000, 0px 0px 7px #000000, 0px 0px 13px #000000, 0px 0px 17px #000000;
-}
-*/
+
 .free-delivery-1 {
     color: #FFFFFF;
     font-size: 36px;
@@ -846,6 +840,11 @@ i.icon.icon-email.footer-contact-links {
 	font-size: 18px;
     margin: 0px 23px;
 	color: #FFFFFF;
+}
+
+.final-menu-item {
+    float: none !important;
+    margin: auto !important;
 }
 
 .appetizers-menu-menu-sizing {
@@ -1289,6 +1288,8 @@ a#sides-label.accordion-title:focus {
 }
 
 .sub-category-item-image {	
+    width: 258px;
+    height: 152px;
 }
 .sub-category-item-title {	
     /* height: 64px; */
