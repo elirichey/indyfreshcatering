@@ -856,8 +856,8 @@ i.icon.icon-email.footer-contact-links {
 	width: 100%;
 	color: #000000;
 	padding-top: 5px;
-	padding-left: 23px;
-    padding-right: 23px;
+	padding-left: 18px;
+    padding-right: 18px;
 	font-weight: normal		
 }
 a.sub-menu-text {
@@ -868,10 +868,9 @@ a.sub-menu-text {
 	width: 100%;
 	padding-top: 7px;
     padding-bottom: 4px;
-	padding-left: 23px;
-    padding-right: 23px;
+	padding-left: 18px;
+    padding-right: 18px;
 	background: #FFFFFF;
-    border-radius: 23px;
     color: #144e15;
 }
 .sub-menu-active {
@@ -880,9 +879,8 @@ a.sub-menu-text {
 	background: #FFFFFF;
 	padding-top: 7px;
     padding-bottom: 4px;
-	padding-left: 23px;
-    padding-right: 23px;
-    border-radius: 23px;
+	padding-left: 18px;
+    padding-right: 18px;
     color: #144e15;
     font-weight: bold;
 }
