@@ -1044,14 +1044,15 @@ a.sub-menu-text {
 .click-me-container:focus {
 	background: #FF0000;
 }
-.click-me-text {
+.click-me-icon {
     display: block;
     padding-bottom: 7px;
-    margin-top: -7px;	
+    margin: auto;
+    margin-top: -10px;
+    width: 48px;
 }
 
-#appetizers-label {
-	border-radius: 23px;	
+#appetizers-label {	
 	border: solid 3px #144e15;
     padding: 3px !important;
 }
@@ -1065,7 +1066,6 @@ a#appetizers-label.accordion-title:focus {
 }
 
 #pastasauces-label {
-	border-radius: 23px;
 	border: solid 3px #144e15;
     padding: 3px !important;	
 }
@@ -1078,8 +1078,7 @@ a#pastasauces-label.accordion-title:focus {
     padding: 3px !important;
 }
 
-#entrees-label {
-	border-radius: 23px;	
+#entrees-label {	
 	border: solid 3px #144e15;
     padding: 3px !important;	
 }
@@ -1093,7 +1092,6 @@ a#entrees-label.accordion-title:focus {
 }
 
 #veggies-label {
-	border-radius: 23px;	
 	border: solid 3px #144e15;
     padding: 3px !important;	
 }
@@ -1107,7 +1105,6 @@ a#veggies-label.accordion-title:focus {
 }
 
 #sides-label {
-	border-radius: 23px;	
 	border: solid 3px #144e15;
     padding: 3px !important;	
 }
