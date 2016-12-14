@@ -896,6 +896,14 @@ a.sub-menu-text {
     font-weight: bold;
 }
 
+#menu-overview-hero {
+	background-image: url("../img/breakfast-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 430px;
+	position: relative;
+	z-index: 0;
+}
 #breakfast-hero {
 	background-image: url("../img/breakfast-hero.jpg");
     background-size: cover;
@@ -989,6 +997,36 @@ a.sub-menu-text {
 	padding: 87px 0px;
 }
 
+#printable-menu {
+    padding-bottom: 87px;
+    text-align: center;
+}
+.printable-menu-button {
+    display: block;
+    background: #FFFFFF;
+    border: solid 3px #144e15;
+    border-radius: 23px;
+    padding: 4px 0px;
+    padding-top: 7px;
+    font-family: headers;
+    width: 270px;
+    margin: auto;
+    color: #000000;
+    font-weight: bold;
+}
+.printable-menu-button:hover {
+	display: block;
+	background: #FFFFFF;
+	border: solid 3px #820a0b;
+	border-radius: 23px;
+	padding: 4px 0px;
+    padding-top: 7px;
+    font-family: headers;
+	width: 270px;
+	margin: auto;
+	color: #144e15;
+	font-weight: bold;
+}
 
 
 
