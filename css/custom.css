@@ -76,14 +76,17 @@ a:hover, a:focus {
 ul {
 	margin-left: 0px !important;
 }
-
+li {
+    font-family: main;
+    font-size: 18px;
+}
 
 .triangle-left {
     display: inline-block;
 	width: 0;
 	height: 0;
 	border-top: 7px solid transparent;
-	border-right: 180px solid #820a0b;
+	border-right: 150px solid #820a0b;
 	border-bottom: 7px solid transparent;
 }
 .triangle-right {
@@ -91,7 +94,7 @@ ul {
 	width: 0;
 	height: 0;
 	border-top: 7px solid transparent;
-	border-left: 180px solid #820a0b;
+	border-left: 150px solid #820a0b;
 	border-bottom: 7px solid transparent;
 }
 
@@ -383,7 +386,26 @@ i.icon.icon-email.footer-contact-links {
 }
 
 .event-tag-line {
+    color: #820a0b;
+    text-align: center;
 	margin-bottom: 36px;
+}
+.event-secondary-line {
+    text-align: center;
+    color: #144e15;
+    margin-top: 72px;
+    margin-bottom: 36px;
+}
+.event-secondary-line-alt {
+    text-align: center;
+    color: #144e15;
+    margin-top: 36px;
+}
+.events-list {
+    margin-bottom: 36px;
+}
+.events-ul li {
+    list-style-type: none;
 }
 
 .celebration-process-container {
@@ -858,15 +880,11 @@ ul.free-delivery-listings li {
     margin: auto !important;
 }
 
-.appetizers-menu-menu-sizing {
-	width: 8.5% !important;
-}
-
 .sub-menu-text {
 	display: block;
 	width: 100%;
 	color: #000000;
-	padding-top: 5px;
+	padding-top: 7px;
 	padding-left: 18px;
     padding-right: 18px;
 	font-weight: normal		
@@ -1332,10 +1350,12 @@ a#sides-label.accordion-title:focus {
     height: 123px;	
 }
 
+/*
 .sub-category-item-image {	
     width: 258px;
     height: 152px;
 }
+*/
 .sub-category-item-title {	
     /* height: 64px; */
     color: #144e15;
@@ -1384,3 +1404,46 @@ a#sides-label.accordion-title:focus {
 	padding-top: 87px;
 	padding-bottom: 72px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************ NEW ADDITIONS SINCE REMOVING IMAGES ************************************/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
