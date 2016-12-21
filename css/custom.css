@@ -12,7 +12,7 @@ Red: #820a0b
     font-family: main;
     src: url("../css/fonts/main.ttf");
 }
-@font-face {
+@font-face { 
     font-family: headers;
     src: url("../css/fonts/headers.ttc");
 }
@@ -313,7 +313,7 @@ i.icon.icon-email.footer-contact-links {
 /* packages foundational styles (layout > package-x.html)*/
 
 .package-top-margin {
-	margin-top: 72px;
+	margin-top: 101px;
 }
 
 .package-type-container {
@@ -324,10 +324,6 @@ i.icon.icon-email.footer-contact-links {
 
 .package-middle-row {    
     margin: 50px auto !important;
-}
-
-.package-image {
-	display: block;
 }
 
 .package-title {
@@ -392,13 +388,11 @@ i.icon.icon-email.footer-contact-links {
 	margin-bottom: 36px;
 }
 .event-secondary-line {
-    text-align: center;
     color: #144e15;
     margin-top: 72px;
     margin-bottom: 36px;
 }
 .event-secondary-line-alt {
-    text-align: center;
     color: #144e15;
     margin-top: 36px;
 }
@@ -406,7 +400,6 @@ i.icon.icon-email.footer-contact-links {
     margin-bottom: 36px;
 }
 .events-ul li {
-    list-style-type: none;
 }
 
 .celebration-process-container {
