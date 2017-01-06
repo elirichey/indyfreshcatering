@@ -980,11 +980,24 @@ a.sub-menu-text {
 	z-index: 0;
 }
 
+#packages-hero {
+	background-image: url("../img/packages-hero.jpg");
+    background-size: cover;
+	background-position: center bottom;
+    height: 430px;
+	z-index: 0;
+}
+
 
 .menu-h1 {
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
 	padding-top: 169px;
+}
+.menu-h1-alt {
+	color: #FFFFFF;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+	padding-top: 183px;
 }
 
 .desktop-menu-layout {
@@ -1008,11 +1021,12 @@ a.sub-menu-text {
     
 }
 .expense-title {
-    font-weight: bold;
     font-size: 80%;
 }
 .min-expense {
-    
+    display: block;
+    width: 100%; 
+    font-weight: bold;
 }
 .other-expense {
     
@@ -1407,6 +1421,24 @@ a#sides-label.accordion-title:focus {
 	padding-bottom: 72px;
 }
 
+.team-members-row {
+    padding-bottom: 72px;
+}
+.team-member-image {
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;   
+    padding-bottom: 23px;
+}
+.team-member-name {
+    
+}
+.team-member-title {
+    font-style: italic;
+}
+.team-member-bio {
+}
 
 
 
