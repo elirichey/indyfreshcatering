@@ -89,7 +89,7 @@
 	  }
 	  #footer-social li {
 		  display: inline-block;
-		  margin: 7px 20px;
+		  margin: 16px 20px;
 	  }
 	  	  
 	  
@@ -101,7 +101,7 @@
 		  width: 27%;
 	  }
 	  .footer-logo {
-		  padding-top: 23px;
+          margin-top: 23px;
 	  }
 	  .tablet-footer-contact {
 		  width: 40%;		  
@@ -252,7 +252,9 @@
   *******************************************************************************/
   @media (max-width: 767px) {
 	  
-      
+      .sub-menu-sub-categories-alt {
+          padding: 87px 16px;
+      }
       .triangle-left {
           display: none;
       }
@@ -485,11 +487,18 @@
       
       
       .menu-h1 {
+          font-size: 180%;
+          padding-top: 111px;
+      }
+      .menu-h1-alt {
           font-size: 230%;
+          padding-top: 127px;
       }
       
       .sub-category-item-text {	
-          padding-bottom: 43px;
+          padding-bottom: 0px;
+          padding-top: 0px;
+          margin-bottom: 18px;
       }
       .package-text {
           padding-bottom: 43px;
@@ -592,13 +601,77 @@
           padding-top: 23px;
           margin-top: 0px;
       }
-
       
-      .desktop-menu-layout {
-          display: none;
+      
+      
+      #breakfast-hero {
+        background-position: left bottom;
+        height: 320px;
       }
-      .mobile-menu-layout {
-          display: block;
+      #apps-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #entrees-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #soup-and-salad-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #pasta-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #wraps-and-subs-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #sides-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #menu-overview-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #packages-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #celebrations-event-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #corporate-event-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #wedding-event-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #quotes-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      #about-hero {
+        background-position: center bottom;
+        height: 320px;
+      }
+      
+      
+      
+      
+      
+      
+      
+      .sub-category-item-title {
+        color: #144e15;
+        margin-top: 0px;
+        padding-top: 72px;
+        text-transform: uppercase;          
       }
             
 	  

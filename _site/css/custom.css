@@ -82,6 +82,10 @@ li {
     font-size: 18px;
 }
 
+.large-fifth {
+    width: 20%;
+}
+
 .triangle-left {
     display: inline-block;
 	width: 0;
@@ -136,7 +140,7 @@ i.icon.icon-email.header-contact-links {
 }
 #header-social li {
 	display: inline-block;
-	margin: 0px 23px;
+	margin: 0px 21px;
 }
 .top-social {
 	padding-top: 8px;
@@ -665,12 +669,16 @@ i.icon.icon-email.footer-contact-links {
     padding-bottom: 36px;
 }
 .free-delivery-img {
+    height: 360px;
 }
 .free-delivery-listings {
     list-style-type: none;
 }
 ul.free-delivery-listings li {
     padding: 13px 0px;
+}
+.delivery-note {
+    font-size: 13px;
 }
 
 .free-delivery-note {
@@ -931,9 +939,12 @@ a.sub-menu-text {
 	z-index: 0;
 }
 #apps-hero {
+    /*
 	background-image: url("../img/apps-hero.jpg");
     background-size: cover;
 	background-position: center bottom;
+    */
+    background-color: black;
     height: 430px;
 	z-index: 0;
 }
@@ -1021,7 +1032,7 @@ a.sub-menu-text {
     
 }
 .expense-title {
-    font-size: 80%;
+    font-size: 13px;
 }
 .min-expense {
     display: block;
