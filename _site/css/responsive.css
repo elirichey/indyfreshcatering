@@ -148,7 +148,9 @@
 		  padding-top: 43px;
 	  }
 	  #home-value {
-		  margin: 50px 0px;
+		  margin: 50px 0px;   
+          margin-top: 50px;
+          margin-bottom: 80px;
 	  }
 	  .value-image-container {
 		  display: inline-block;
@@ -284,16 +286,20 @@
 	  }
 	  
 	  .header-logo {
-		  padding-top: 23px;
-		  margin: auto !important;
-		  display: block;
-		  width: 244px;
+        padding: 23px;
+        margin: auto !important;
+        display: block;
+        height: 121px;
+        width: auto;
 	  }
 	  #main-header {
 		  display: block;
-		  height: 143px;
+		  height: 121px;
 		  box-shadow: 0px 0px 3px #000000;
 	  }	  
+      .stickyHeader {
+          display: none;
+      }
 	  
 	  nav {
 		  display: none !important;
@@ -309,7 +315,7 @@
 		  width: 100% !important;
 		  background: #820a0b !important;
 		  color: #FFFFFF !important;
-		  font-size: 24px !important;
+		  font-size: 21px !important;
 		  padding: 9px 0px !important;
 		  margin-bottom: 0px !important;
 	  }
@@ -317,8 +323,7 @@
 		  color: #000000 !important;
 	  }
 	  div.mobile-menu-base li {
-		  margin-top: 13px;
-		  margin-bottom: 13px;
+          padding: 13px;
 	  }
 	  a#toggle-mobile-menu-menu.button {
           color: #000000 !important;
@@ -333,51 +338,52 @@
 		  background: #FFFFFF !important;
 	  }
 	  ul.submenu.text-center {
-		  width: 100%;
-		  display: inline-block;
-		  background: rgba(20, 78, 21, 0.13);
-		  color: #000000;
+        width: 100%;
+        display: inline-block;
+        background: rgba(20, 78, 21, 0.13);
+        color: #000000;
 	  }
 	  div.mobile-menu-menu li {
-		  width: 100%;
-		  display: inline-block;
+        width: 100%;
+        display: inline-block;
 	  }
 	  div.mobile-menu-packages li {
-		  width: 100%;
-		  display: inline-block;
+        width: 100%;
+        display: inline-block;
 	  }
 	   div.mobile-menu-events li {
-		  width: 100%;
-		  display: inline-block;
+        width: 100%;
+        display: inline-block;
 	  }
       .mobile-menu-padding {
-          padding-top: 13px;
-          padding-bottom: 13px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-size: 21px;
       }
 	  a.drop-menu-text {
-		  color: #000000;
+        color: #000000;
 	  }
 	  	  	  	  	  
 	  
 	  #top-footer {
-		  display: block;
-		  height: 120px;
+        display: block;
+        height: 120px;
 	  }
 	  #footer-social {
-		  text-align: center;
-		  padding-top: 7px;
+        text-align: center;
+        padding-top: 7px;
 	  }
 	  #footer-social li {
-		  display: inline-block;
-		  margin: 7px 20px;
+        display: inline-block;
+        margin: 7px 20px;
 	  }
 	  
 	  #main-footer {
-		  display: block;
-		  height: 420px;
+        display: block;
+        height: 420px;
 	  }
 	  .footer-logo {
-		  padding-top: 23px;
+        padding-top: 23px;
 	  }
 	  
 	  
@@ -399,10 +405,12 @@
 	  	  
 	  #hero-tiles {
 		  margin-top: 50px;
+          margin-bottom: 72px;
 	  }
 	  .tile-container {
 		  float: none;
 		  width: 100%;
+          height: 180px;
 	  }
 	  .tile-container-alt {
 		  float: none;
@@ -488,6 +496,7 @@
       
       .menu-h1 {
           font-size: 180%;
+          padding: 0px 16px;
           padding-top: 111px;
       }
       .menu-h1-alt {
@@ -589,17 +598,15 @@
       }
       
       .sub-menu-sub-categories {
-          padding-top: 87px;
-          padding-bottom: 15px;
+        padding-top: 36px;
+        padding-bottom: 15px;
+        padding-left: 16px;
+        padding-right: 16px;
       }
       .accordion-title-text {
-          display: block;
-          width: 100%;
-          font-size: 27px;
-          color: #FFFFFF;
-          text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
-          padding-top: 23px;
-          margin-top: 0px;
+        margin-top: 72px;
+        margin-bottom: 0px;
+        padding-top: 0px;
       }
       
       
@@ -661,6 +668,10 @@
         height: 320px;
       }
       
+      .large-fifth {
+        width: 100%;
+      }
+      
       
       
       
@@ -673,8 +684,42 @@
         padding-top: 72px;
         text-transform: uppercase;          
       }
-            
-	  
+      .desktop-menu-layout {
+        padding-bottom: 72px;
+      }
+      
+      .free-delivery-img {
+        height: calc(100vw - 36px);
+        margin-bottom: 43px;
+      }
+      .community-partners-title {
+        padding-bottom: 13px;
+      }
+      .team-member-bio {
+        margin-bottom: 87px;
+      }
+      ul.events-ul {
+        list-style-type: none;
+        text-align: center;
+          
+      }
+      
+      
+      ul.menu-list.main-menu-text.dropdown {
+        background: #ffffff;
+        margin: 0px;
+      }
+      
+      #main-header {
+          display: none !important;
+      }
+      #main-header-sticky-wrapper {
+          display: none !important;
+      }
+      
+      .menu-top-margin {
+            margin-top: 0px;
+      }
 
 }
 
@@ -697,5 +742,9 @@
 	  .mobile-menu-base {
 		  display: none !important;
 	  }
+      
+      #mobile-header {
+          display: none !important;
+      }
 
   }
