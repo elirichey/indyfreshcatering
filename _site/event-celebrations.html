@@ -344,81 +344,6 @@ give us a call anytime at (317) 605-1200.">
 </div>
 
 
-<!--
-<div class="celebration-process-container">
-	<div class="row text-center">
-		<h3 class="process-title">PROCESS</h3>
-    </div>
-</div>
-
-<div class="main-process-container">        
-    <div class="row">
-        <div class="large-3 columns text-center">
-            <h4 class="process-item-title">Step 1</h4>
-				
-            <div class="process-item-image-container">
-				<img src="img/placeholder.jpg" class="process-item-image">
-            </div>
-				
-            <p class="process-item-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-        </div>
-
-        <div class="large-3 columns text-center">
-            <h4 class="process-item-title">Step 2</h4>
-
-            <div class="process-item-image-container">
-                <img src="img/placeholder.jpg" class="process-item-image">
-            </div>
-
-            <p class="process-item-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-        </div>
-
-        <div class="large-3 columns text-center">
-            <h4 class="process-item-title">Step 3</h4>
-
-            <div class="process-item-image-container">
-                <img src="img/placeholder.jpg" class="process-item-image">
-            </div>
-
-            <p class="process-item-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-        </div>
-
-        <div class="large-3 columns text-center">
-            <h4 class="process-item-title">Step 4</h4>
-
-            <div class="process-item-image-container">
-                <img src="img/placeholder.jpg" class="process-item-image">
-            </div>
-
-            <p class="process-item-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="large-9 large-centered columns">
-            <div class="call-to-action-button-container">
-                <div class="x2-button-container-left text-center">
-                    <a class="process-button" href="/packages-overview.html">VIEW PACKAGES</a>
-                </div>
-
-                <div class="x2-button-container-right text-center">
-                    <a class="process-button" href="/menu-overview.html">VIEW MENU</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
--->
-
-
 
 <div class="celebration-contact-container">
     <div class="row text-center">
@@ -426,9 +351,56 @@ give us a call anytime at (317) 605-1200.">
     </div>
     
 	<div class="row">
-        <script type="text/javascript" src="https://indyfreshcaetering.formstack.com/forms/js.php/order_form"></script><noscript><a href="https://indyfreshcaetering.formstack.com/forms/order_form" title="Online Form">Online Form - General Order Form</a></noscript><div style="text-align:right; font-size:x-small;"></div>
+        <div class="large-10 large-centered columns">
+            <script type="text/javascript" src="https://indyfreshcaetering.formstack.com/forms/js.php/order_form"></script><noscript><a href="https://indyfreshcaetering.formstack.com/forms/order_form" title="Online Form">Online Form - General Order Form</a></noscript><div style="text-align:right; font-size:x-small;"></div>
+        </div>
 	</div>
+    
+    <div class="row">
+        <a data-open="menuBreakfast"><h5 class="quick-menu-section-title">Breakfast</h5></a>
+        <a data-open="menuAppetizers"><h5 class="quick-menu-section-title">Appetizers</h5></a>
+        <a data-open="menuEntrees"><h5 class="quick-menu-section-title">Entrees</h5></a>
+        <a data-open="menuSoupsAndSalads"><h5 class="quick-menu-section-title">Soups & Salads</h5></a>
+        <a data-open="menuPasta"><h5 class="quick-menu-section-title">Pasta</h5></a>
+        <a data-open="menuSandwichesAndWraps"><h5 class="quick-menu-section-title">Sandwiches & Wraps</h5></a>
+        <a data-open="menuSides"><h5 class="quick-menu-section-title">Sides</h5></a>
+    </div>
 </div>
+
+
+
+<!-- Form Quick Menu Modals -->
+
+<div class="reveal" id="menuBreakfast" data-reveal>
+    Breakfast
+</div>
+
+<div class="reveal" id="menuAppetizers" data-reveal>
+    Appetizers
+</div>
+
+<div class="reveal" id="menuEntrees" data-reveal>
+    Entrees
+</div>
+
+<div class="reveal" id="menuSoupsAndSalads" data-reveal>
+    Soups & Salads
+</div>
+
+<div class="reveal" id="menuPasta" data-reveal>
+    Pasta
+</div>
+
+<div class="reveal" id="menuSandwichesAndWraps" data-reveal>
+    Sandwiches & Wraps
+</div>
+
+<div class="reveal" id="menuSides" data-reveal>
+    Sides
+</div>
+
+
+
 
 
 
@@ -528,7 +500,8 @@ give us a call anytime at (317) 605-1200.">
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.min.js"></script>
     <script src="js/mobile-menu.js"></script>    
-    <script src="js/vendor/app.js"></script>
+    <script src="js/vendor/app.js"></script> 
+    <script src="js/vendor/foundation.reveal.js"></script> 
     
     <script>
         $(document).ready(function(){

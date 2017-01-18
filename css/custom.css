@@ -1470,7 +1470,9 @@ a#sides-label.accordion-title:focus {
 
 /************************************ NEW ADDITIONS SINCE REMOVING IMAGES ************************************/ 
 
-
+a.quick-menu-section-title {
+    color: #000000;
+}
 
 
 
