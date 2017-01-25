@@ -666,6 +666,8 @@ i.icon.icon-email.footer-contact-links {
     padding-bottom: 36px;
 }
 .home-free-delivery-note {
+}
+.home-free-delivery-note-alt {
     padding-bottom: 36px;
 }
 .free-delivery-img {
@@ -955,8 +957,8 @@ a.sub-menu-text {
     height: 430px;
 	z-index: 0;
 }
-#entrees-hero {
-	background-image: url("../img/entrees-hero.jpg");
+#italian-hero {
+	background-image: url("../img/italian-hero.jpg");
     background-size: cover;
 	background-position: center bottom;
     height: 430px;
@@ -969,8 +971,8 @@ a.sub-menu-text {
     height: 430px;
 	z-index: 0;
 }
-#pasta-hero {
-	background-image: url("../img/pasta-hero.jpg");
+#bbq-hero {
+	background-image: url("../img/bbq-hero.jpg");
     background-size: cover;
 	background-position: center bottom;
     height: 430px;
