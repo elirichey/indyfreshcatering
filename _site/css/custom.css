@@ -666,8 +666,6 @@ i.icon.icon-email.footer-contact-links {
     padding-bottom: 36px;
 }
 .home-free-delivery-note {
-}
-.home-free-delivery-note-alt {
     padding-bottom: 36px;
 }
 .free-delivery-img {
@@ -681,6 +679,9 @@ ul.free-delivery-listings li {
 }
 .delivery-note {
     font-size: 13px;
+    color: #000;
+    text-transform: initial;
+    font-family: initial;    
 }
 
 .free-delivery-note {
