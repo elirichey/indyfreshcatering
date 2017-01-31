@@ -18,7 +18,7 @@ Red: #820a0b
 }
 
 body {
-    background: #ffffff; 
+    background: #ffffff;      
 }
 .row {
     max-width: 72rem !important;
@@ -1479,7 +1479,9 @@ a#sides-label.accordion-title:focus {
     margin-top: 5px !important;        
 }
 
-
+.reveal {
+    width: 85% !important;
+}
 
 .fsForm select:not([multiple="multiple"]) { 
     background-position: right -16px top 50% !important;
@@ -1499,7 +1501,11 @@ a#sides-label.accordion-title:focus {
     display: inline-block !important;
     width: 50% !important;
     float: left !important;
+    padding: 0 13px !important;
 }
+
+/* General Form */
+
 #fsRow2578606-7 {
     display: block !important;
     width: 33% !important;
@@ -1582,17 +1588,169 @@ a#sides-label.accordion-title:focus {
     padding: 0 13px !important;
 }
 
-.reveal {
-    width: 85% !important;
+/* Wedding Form */
+#fsRow2578642-9 {
+    width: 33% !important; 
+    float: left !important;
+    padding-right: 13px !important;
+}
+#fsRow2578642-11 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-12 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-13 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-14 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-15 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-16 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-17 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-18 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-19 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-20 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-21 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-22 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-23 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-24 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578642-25 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
 }
 
-
-
-
-
-
-
-
+/* Contact Form */
+#fsRow2578648-13 {
+    width: 33% !important; 
+    float: left !important;
+    padding-right: 13px !important;
+}
+#fsRow2578648-14 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-15 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-16 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-17 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-18 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-19 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-20 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-21 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-22 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-23 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-24 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-25 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-26 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-27 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578648-28 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
 
 
 
