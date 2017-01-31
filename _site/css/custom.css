@@ -1473,13 +1473,118 @@ a#sides-label.accordion-title:focus {
 
 /************************************ NEW ADDITIONS SINCE REMOVING IMAGES ************************************/ 
 
-a.quick-menu-section-title {
-    color: #000000;
+.quick-menu-section-title {
+    color: #820a0b !important;
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;        
 }
 
 
 
+.fsForm select:not([multiple="multiple"]) { 
+    background-position: right -16px top 50% !important;
+}
+.fsSubmitButton {
+    border-radius: 27px !important;
+}
+.fsBody .fieldset-content .always-ltr {
+    margin-top: 0px !important;
+}
+.fsBody .fieldset-content .always-ltr {
+    width: 50% !important;
+    margin-left: 100px !important;
+}
 
+.one-third {
+    display: inline-block !important;
+    width: 50% !important;
+    float: left !important;
+}
+#fsRow2578606-7 {
+    display: block !important;
+    width: 33% !important;
+    float: left !important;
+    padding-right: 13px !important;
+}
+#fsRow2578606-8 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-9 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-10 {
+    width: 66% !important;  
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-11 {
+    width: 66% !important;  
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-12 {
+    width: 66% !important;   
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-13 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-14 {
+    width: 66% !important;    
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-15 {
+    width: 66% !important;  
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-16 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-17 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-18 {
+    width: 66% !important;  
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-19 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-20 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-21 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
+#fsRow2578606-22 {
+    width: 66% !important; 
+    float: left !important;
+    padding: 0 13px !important;
+}
+
+.reveal {
+    width: 85% !important;
+}
 
 
 
