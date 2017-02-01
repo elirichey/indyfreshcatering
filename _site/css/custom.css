@@ -154,6 +154,14 @@ i.icon.icon-email.header-contact-links {
     background: #fff;
     z-index: 1000000000000000;
 }
+#alt-main-header {
+	display: block;
+    position: relative;
+	height: 187px;
+	box-shadow: 0px 0px 3px #000000;
+    background: #fff;
+    z-index: 1000000000000000;
+}
 .header-logo {
 	padding-top: 23px;
 }
@@ -852,10 +860,12 @@ ul.free-delivery-listings li {
 
 #menu-bar {
 	display: block;
+    position: absolute;
+    bottom: 0;
 	height: 44px;
-	background: #FFFFFF;
-    border-top: solid 2px #820a0b;
-    border-bottom: solid 2px #820a0b;
+    width: 100%;
+	box-shadow: 0px 0px 3px #000000;
+    background: #fff;
 }
 #menu-menu {
 	text-align: center;
