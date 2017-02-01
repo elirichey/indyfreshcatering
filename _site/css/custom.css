@@ -1492,6 +1492,14 @@ a#sides-label.accordion-title:focus {
 .reveal {
     width: 85% !important;
 }
+/*
+.close-reveal-modal {
+    position: flex;
+    top: 13px;
+    right: 13px;
+    color: #000;
+}
+*/
 
 .fsForm select:not([multiple="multiple"]) { 
     background-position: right -16px top 50% !important;
