@@ -952,12 +952,9 @@ a.sub-menu-text {
 	z-index: 0;
 }
 #apps-hero {
-    /*
 	background-image: url("../img/apps-hero.jpg");
     background-size: cover;
 	background-position: center bottom;
-    */
-    background-color: black;
     height: 430px;
 	z-index: 0;
 }
