@@ -12,12 +12,12 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /usr/local/Cellar/ruby/2.3.2/include/ruby-2.3.0
+topdir = /Users/zilla/.rubies/ruby-2.3.0/include/ruby-2.3.0
 hdrdir = $(topdir)
-arch_hdrdir = /usr/local/Cellar/ruby/2.3.2/include/ruby-2.3.0/x86_64-darwin15
+arch_hdrdir = /Users/zilla/.rubies/ruby-2.3.0/include/ruby-2.3.0/x86_64-darwin15
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/usr/local/Cellar/ruby/2.3.2
+prefix = $(DESTDIR)/Users/zilla/.rubies/ruby-2.3.0
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -30,10 +30,10 @@ sitehdrdir = $(rubyhdrdir)/site_ruby
 rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
-vendordir = $(DESTDIR)/usr/local/lib/ruby/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20161121-2325-1xuvx83
-sitelibdir = $(DESTDIR)./.gem.20161121-2325-1xuvx83
-sitedir = $(DESTDIR)/usr/local/lib/ruby/site_ruby
+vendordir = $(rubylibprefix)/vendor_ruby
+sitearchdir = $(DESTDIR)./.gem.20170307-84959-2d6cwu
+sitelibdir = $(DESTDIR)./.gem.20170307-84959-2d6cwu
+sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
 sitearchincludedir = $(includedir)/$(sitearch)
@@ -51,7 +51,7 @@ htmldir = $(docdir)
 infodir = $(datarootdir)/info
 docdir = $(datarootdir)/doc/$(PACKAGE)
 oldincludedir = $(DESTDIR)/usr/include
-includedir = $(prefix)/include
+includedir = $(SDKROOT)$(prefix)/include
 localstatedir = $(prefix)/var
 sharedstatedir = $(prefix)/com
 sysconfdir = $(prefix)/etc
@@ -64,10 +64,10 @@ archdir = $(rubyarchdir)
 
 
 CC = clang
-CXX = clang++
-LIBRUBY = $(LIBRUBY_SO)
+CXX = g++
+LIBRUBY = $(LIBRUBY_A)
 LIBRUBY_A = lib$(RUBY_SO_NAME)-static.a
-LIBRUBYARG_SHARED = -l$(RUBY_SO_NAME)
+LIBRUBYARG_SHARED = 
 LIBRUBYARG_STATIC = -l$(RUBY_SO_NAME)-static -framework CoreFoundation
 empty =
 OUTFLAG = -o $(empty)
@@ -80,13 +80,13 @@ optflags = -O3 -fno-fast-math
 debugflags = -ggdb3
 warnflags = 
 CCDLFLAGS = -fno-common
-CFLAGS   = $(CCDLFLAGS) $(cflags)  -fno-common -pipe $(ARCH_FLAG)
+CFLAGS   = $(CCDLFLAGS) $(cflags)  -pipe $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir) -I/usr/include/ffi
 DEFS     = 
-CPPFLAGS = -DRUBY_EXTCONF_H=\"$(RUBY_EXTCONF_H)\"  -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags)
+CPPFLAGS = -DRUBY_EXTCONF_H=\"$(RUBY_EXTCONF_H)\"  -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags)
 CXXFLAGS = $(CCDLFLAGS) $(cxxflags) $(ARCH_FLAG)
-ldflags  = -L. -fstack-protector -L/usr/local/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib
-dldflags = -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib 
+ldflags  = -L. -fstack-protector -L/usr/local/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib
+dldflags = -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib 
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)
 LDSHARED = $(CC) -dynamic -bundle
@@ -95,7 +95,7 @@ AR = ar
 EXEEXT = 
 
 RUBY_INSTALL_NAME = $(RUBY_BASE_NAME)
-RUBY_SO_NAME = ruby.2.3.0
+RUBY_SO_NAME = ruby
 RUBYW_INSTALL_NAME = 
 RUBY_VERSION_NAME = $(RUBY_BASE_NAME)-$(ruby_version)
 RUBYW_BASE_NAME = rubyw
@@ -122,8 +122,8 @@ TOUCH = exit >
 
 preload = 
 
-libpath = . $(libdir) /usr/local/opt/libyaml/lib /usr/local/opt/openssl/lib /usr/local/opt/readline/lib
-LIBPATH =  -L. -L$(libdir) -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib
+libpath = . $(libdir) /usr/local/opt/openssl/lib /usr/local/opt/readline/lib /usr/local/opt/libyaml/lib /usr/local/opt/gdbm/lib
+LIBPATH =  -L. -L$(libdir) -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib
 DEFFILE = 
 
 CLEANFILES = mkmf.log
@@ -134,7 +134,7 @@ extout =
 extout_prefix = 
 target_prefix = 
 LOCAL_LIBS = 
-LIBS = $(LIBRUBYARG_SHARED) -lffi  -lpthread -ldl -lobjc 
+LIBS =  -lffi  -lpthread -ldl -lobjc 
 ORIG_SRCS = AbstractMemory.c ArrayType.c Buffer.c Call.c ClosurePool.c DataConverter.c DynamicLibrary.c ffi.c Function.c FunctionInfo.c LastError.c LongDouble.c MappedType.c MemoryPointer.c MethodHandle.c Platform.c Pointer.c Struct.c StructByReference.c StructByValue.c StructLayout.c Thread.c Type.c Types.c Variadic.c
 SRCS = $(ORIG_SRCS) 
 OBJS = AbstractMemory.o ArrayType.o Buffer.o Call.o ClosurePool.o DataConverter.o DynamicLibrary.o ffi.o Function.o FunctionInfo.o LastError.o LongDouble.o MappedType.o MemoryPointer.o MethodHandle.o Platform.o Pointer.o Struct.o StructByReference.o StructByValue.o StructLayout.o Thread.o Type.o Types.o Variadic.o
