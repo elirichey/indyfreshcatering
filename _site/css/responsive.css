@@ -654,6 +654,9 @@
         background-position: center bottom;
         height: 320px;
       }
+      #get-quote-button {
+        margin: 60px !important;
+      }
       #wedding-event-hero {
         background-position: center bottom;
         height: 320px;

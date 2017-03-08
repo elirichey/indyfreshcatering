@@ -828,6 +828,10 @@ ul.free-delivery-listings li {
 	width: 50%;
 	float: left;
 }
+
+#get-quote-button {
+    margin: 60px !important;
+}
 .over-dark-button {
 	display: block;
 	background: #FFFFFF;
