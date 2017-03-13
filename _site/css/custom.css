@@ -178,11 +178,19 @@ li {
 	font-size: 27px;
 }
 .contact-contact-links {
+    display: inline-block;
+    float: left;
 	color: #144e15;
-	font-size: 27px;
+	font-size: 43px;
+    margin-top: 0px;
 }
 .contact-contact-text {
+    display: inline-block;
+    float: left;
     color: #000000;
+    font-size: 27px;
+    font-family: headers;
+    margin-left: 13px;
 }
 .contact-contact-text:hover {
     color: #144e15;
