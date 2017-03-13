@@ -1495,7 +1495,7 @@ a#sides-label.accordion-title:focus {
 
 
 #quotes-hero {
-	background-image: url("../img/blog-hero.jpg");
+	background-image: url("../img/cta-bg.jpg");
     background-size: cover;
 	background-position: center bottom;
     height: 430px;
