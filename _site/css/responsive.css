@@ -74,10 +74,7 @@
 	  #main-menu {
 		  display: none;
 	  }
-	  
-	  
-	  
-	  
+	  	  	  	  
 	  
 	  #top-footer {
 		  display: block;
@@ -99,9 +96,6 @@
 	  }
 	  .tablet-footer-logo {
 		  width: 27%;
-	  }
-	  .footer-logo {
-          margin-top: 23px;
 	  }
 	  .tablet-footer-contact {
 		  width: 40%;		  
@@ -241,9 +235,47 @@
       .three-points-two-to-three {
           margin: 0px;
       }
+      
+      .top-contact {
+          width: 100% !important;
+      }
 	  
-	  
-
+      .row .row {
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+      }
+      .triangle-left {
+          display: none !important;
+      }
+      .triangle-right {
+          display: none !important;
+      }
+      .hide-tablet {
+          display: none !important;
+      }
+      .footer-logo {
+          margin-top: 0 !important;
+          padding-top: 16px !important;
+      }
+      .tablet-50 {
+          width: 50% !important;
+          float: left !important;
+      }
+      .tablet-33 {
+          width: 33% !important;
+      } 
+      .tablet-25 {
+          width: 25% !important;
+      } 
+      .tablet-partners {
+          width: 16.5% !important;
+      }
+      
+      
+      .home-tile-text {
+          font-size: 32px !important;
+          margin-top: -100px !important;
+      }
 
 
 
@@ -731,6 +763,9 @@
       
       /* Form Styles */
       
+      .call-mobile {
+          margin-bottom: 32px;
+      }
       .reveal {
           width: 100% !important;
           margin: auto;

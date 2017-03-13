@@ -103,6 +103,53 @@ li {
 	border-bottom: 7px solid transparent;
 }
 
+.row .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.menu-list-semantics {
+    margin-left: 0 !important;
+    list-style: none !important;
+}
+.menu-list-semantics li {
+    display: inline-block !important;
+    width: 33% !important;
+    float: left !important;
+    text-align: center !important;
+    margin-top: 32px;
+    padding: 0 13px;
+}
+.menu-list-semantics-20 {
+    margin-left: 0 !important;
+    list-style: none !important;
+}
+.menu-list-semantics-20 li {
+    display: inline-block !important;
+    width: 20% !important;
+    float: left !important;
+    text-align: center !important;
+    margin-top: 32px;
+    padding: 0 13px;
+}
+.menu-list-semantics-50 {
+    margin-left: 0 !important;
+    list-style: none !important;
+}
+.menu-list-semantics-50 li {
+    display: inline-block !important;
+    width: 50% !important;
+    float: left !important;
+    text-align: center !important;
+    margin-top: 32px;
+    padding: 0 60px;
+}
+
+
+
+
+
+
 
 #top-header {
 	display: block;
@@ -797,6 +844,7 @@ ul.free-delivery-listings li {
 }
 
 .menu-packages-notification {
+    padding-top: 43px;
     padding-bottom: 72px;
 }
 
@@ -1038,7 +1086,7 @@ a.sub-menu-text {
     
 }
 .sub-menu-sub-categories {
-	padding-bottom: 87px;
+	padding-bottom: 0px;
 }
 .sub-menu-sub-categories-alt {
 	padding: 87px 0px;
@@ -1136,7 +1184,7 @@ a.sub-menu-text {
 	font-size: 36px;
 	color: #820a0b;
     padding: 0px 32px;
-	padding-top: 23px;
+	padding-top: 0px;
     text-align: center;
     margin-top: 72px;
     margin-bottom: 36px;
@@ -1405,10 +1453,28 @@ a#sides-label.accordion-title:focus {
 }
 */
 .sub-category-item-title {	
-    /* height: 64px; */
+    height: 32px;
     color: #144e15;
 	margin-top: 23px;
     text-transform: uppercase;
+}
+.sub-category-item-title-2 {	
+    height: 64px;
+    color: #144e15;
+	margin-top: 23px;
+    text-transform: uppercase;
+}
+.sub-category-item-title-3 {	
+    height: 64px;
+    color: #144e15;
+	margin-top: 23px;
+    text-transform: uppercase;
+}
+.height-300 {
+    height: 300px;
+}
+.height-120 {
+    height: 120px;
 }
 .sub-category-item-title-alt {	
     height: 120px;
@@ -1417,7 +1483,7 @@ a#sides-label.accordion-title:focus {
     text-transform: uppercase;
 }
 .sub-category-item-text {	
-    padding-top: 13px;
+    padding-top: 0;
 }
 
 
@@ -1643,7 +1709,7 @@ div#fsRow2578648-27 {
     padding: 0 13px !important;
 }
 div#fsRow2578648-28 {
-    width: 66% !important;
+    width: 100% !important;
     float: left !important;
     padding: 0 13px !important;
 }
