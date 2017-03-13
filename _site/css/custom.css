@@ -162,13 +162,30 @@ li {
 .top-phone {
 	display: inline-block;
 }
+.contact-phone {
+	display: inline-block;
+}
 .top-email {
 	display: inline-block;
 	margin-left: 50px;
 }
+.contact-email {
+	display: inline-block;
+	margin-left: 0px;
+}
 .header-contact-links {
 	color: #FFFFFF;
 	font-size: 27px;
+}
+.contact-contact-links {
+	color: #144e15;
+	font-size: 27px;
+}
+.contact-contact-text {
+    color: #000000;
+}
+.contact-contact-text:hover {
+    color: #144e15;
 }
 .header-social-links {
 	color: #FFFFFF;
