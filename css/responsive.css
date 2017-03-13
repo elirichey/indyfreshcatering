@@ -46,6 +46,23 @@
 		  vertical-align: sub;
 		  font-size: 23px;
 	  }
+      #mobile-header {
+          display: block !important;
+          height: 136px !important;
+      }
+      #mobile-header-sticky-wrapper {
+          height: 136px !important;
+      }
+      #main-header {
+          display: none !important;
+      }
+      #main-header-sticky-wrapper {
+          display: none !important;
+      }
+      
+      .sub-menu-sub-categories-alt {
+          padding-top: 50px !important;
+      }
 	  .top-phone {
 		  font-size: 15px;
 	  }
@@ -62,15 +79,50 @@
 		  display: inline-block;
 		  margin: 0px 7px;
 	  }
+      #alt-main-header {
+          display: none;
+      }
+      #alt-main-header-sticky-wrapper {
+          display: none;
+      }
+      #toggle-mobile-menu-base {
+          display: block !important;
+      }
+      ul.menu-list.main-menu-text.dropdown {
+        background: #ffffff;
+        margin: 0px;
+      }
+      a#toggle-mobile-menu-menu.button {
+          color: #000000 !important;
+		  background: #FFFFFF !important;	
+          display: block !important;
+          font-size: 18px !important;
+	  }
+	  a#toggle-mobile-menu-events.button {
+          color: #000000 !important;
+		  background: #FFFFFF !important;
+          display: block !important;
+          font-size: 18px !important;
+	  }
+	  a#toggle-mobile-menu-packages.button {
+          color: #000000 !important;
+		  background: #FFFFFF !important;
+          display: block !important;
+          font-size: 18px !important;
+	  }
 	  .tablet-logo {
-		  width: 36%;
+		  width: 100%;
+          text-align: center;
 	  }
 	  .header-logo {
 		  padding-top: 18px;
 	  }
 	  .tablet-main-menu {
-		  width: 64%;
+          display: none;
 	  }
+      .top-social {
+          display: none;
+      }
 	  #main-menu {
 		  display: none;
 	  }
@@ -276,6 +328,13 @@
           font-size: 32px !important;
           margin-top: -100px !important;
       }
+      .height-300 {
+          width: 50% !important;
+      }
+      .height-120 {
+          width: 50% !important;
+          height: inherit !important;
+      }
 
 
 
@@ -474,6 +533,7 @@
 	  }
 	  .value-text-container {
 		  text-align: center;
+          padding: 0 !important;
 	  }
 	  .value-image-container {
 		  text-align: center;
@@ -491,6 +551,9 @@
 		  float: none;
           text-align: center;
 	  }
+      .how-we-serve-text {
+          padding: 0 !important;
+      }
 	  div.large-2.columns {
 		  width: 50%;
 		  margin: 10px 0px;
@@ -527,9 +590,9 @@
       
       
       .menu-h1 {
-          font-size: 180%;
+          font-size: 150%;
           padding: 0px 16px;
-          padding-top: 111px;
+          padding-top: 131px;
       }
       .menu-h1-alt {
           font-size: 230%;
@@ -542,7 +605,7 @@
           margin-bottom: 50px;
       }
       .package-text {
-          padding-bottom: 43px;
+          padding-bottom: 0px;
       }
       
       .event-tag-line {
@@ -636,9 +699,10 @@
         padding-right: 16px;
       }
       .accordion-title-text {
+        font-size: 32px;
         margin-top: 72px;
         margin-bottom: 0px;
-        padding-top: 0px;
+        padding: initial !important;
       }
             
       
@@ -687,7 +751,7 @@
         height: 320px;
       }
       #get-quote-button {
-        margin: 60px !important;
+        margin-bottom: 60px !important;
       }
       #wedding-event-hero {
         background-position: center bottom;
@@ -880,12 +944,47 @@
       }
       
       
+      /* New Menu Layout */
+      
+      .menu-list-semantics li {
+          width: 100% !important;
+      }
+      .menu-list-semantics-20 li {
+          width: 100% !important;
+      }
+      .menu-list-semantics-50 li {
+          width: 100% !important;
+      }
+      .sub-category-item-title {
+          padding-top: initial !important;
+      }
+      .sub-category-item-text {
+          margin-bottom: 16px;
+      }
+      .height-300 {
+          height: initial !important;
+          margin-bottom: 50px; 
+      }
+      .testimonial-top-title {
+          font-size: 32px !important;
+      }
+      
+      
+      
+      
+      
+      
+      /* Gloabl */
+      
+      h4 {
+          font-size: 18px !important;
+      }
       .mobile-only {
           display: block !important;
       }
       .desktop-only {
           display: none !important;
-      }
+      }      
 
       
       
@@ -910,11 +1009,11 @@
 		  display: none;
 	  }
 	  .mobile-menu-base {
-		  display: none !important;
+		  display: none;
 	  }
       
       #mobile-header {
-          display: none !important;
+          display: none;
       }
       
       .mobile-only {
