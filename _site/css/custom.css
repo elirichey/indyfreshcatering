@@ -862,6 +862,9 @@ li {
     margin-right: 0 !important;
 }
 
+.racks-and-sternos {
+  padding-top: 60px !important;
+}
 .menu-list-semantics {
     margin-left: 0 !important;
     list-style: none !important;
@@ -970,6 +973,9 @@ i.icon.icon-email.header-contact-links {
 }
 .top-social {
 	padding-top: 8px;
+}
+.free-delivery-header {
+  color: #ffffff;
 }
 
 #main-header {
@@ -1712,7 +1718,7 @@ ul.free-delivery-listings li {
 	display: inline-block;
 	font-family: headers;
 	font-size: 16px;
-    margin: 0px 7px;
+    margin: 0px 4px;
 	color: #FFFFFF;
 }
 
