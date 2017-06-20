@@ -1065,7 +1065,10 @@ li.drop-menu-text.is-submenu-item.is-dropdown-submenu-item:hover {
 
 #top-footer {	
 	display: block;
+    position: relative;
 	height: 50px;
+    background: #ffffff;
+    z-index: 1000000000;
 }
 #footer-social {
 	text-align: center;
@@ -1081,8 +1084,11 @@ li.drop-menu-text.is-submenu-item.is-dropdown-submenu-item:hover {
 }
 
 #main-footer {
-	display: block;
+    display: block;
+    position: relative;
+    background: #ffffff;
 	height: 180px;
+    z-index: 1000000000;
 }
 .footer-logo {
 	padding-top: 43px;
@@ -1129,9 +1135,11 @@ i.icon.icon-email.footer-contact-links {
 }
 
 #bottom-footer {	
-	display: block;
+    display: block;
+    position: relative;
 	height: 44px;
 	background: #144e15;
+    z-index: 1000000000;
 }
 .copyright {
 	padding-top: 23px;
@@ -1666,11 +1674,27 @@ ul.free-delivery-listings li {
     list-style: none !important;
 }
 
+.floating-section {
+    display: block;
+    position: relative;
+    background: #ffffff;
+    z-index: 1000000000;
+}
+.dietary-needs {
+    display: block;
+    position: relative;
+    background: #ffffff;
+    padding: 120px 0px 120px;
+    z-index: 1000000000;
+}
+
 #call-to-action {
+    position: relative;
 	background-image: url("../img/cta-bg.jpg");
     background-size: cover;
 	background-position: center;
 	padding: 63px 0px;
+    z-index: 1000000000 !important;
 }
 .call-to-action-title {
 	color: white;
@@ -1933,12 +1957,12 @@ a.sub-menu-text {
     background-color: #ffffff !important;
     overflow: hidden !important;
     height: auto;
-    z-index: 101;    
+    z-index: 100;    
 }
 .lunch-table {
     display: block;
     position: relative;
-    z-index: 101;
+    z-index: 100;
 }
 .dinner-section {
     display: block;
@@ -1946,12 +1970,12 @@ a.sub-menu-text {
     background-color: #ffffff !important;
     overflow: hidden !important;
     height: auto;
-    z-index: 102;
+    z-index: 100;
 }
 .dinner-table {
     display: block;
     position: relative;
-    z-index: 102;
+    z-index: 100;
 }
 .packages-left-scroll {
     top: 0;
@@ -1967,6 +1991,7 @@ a.sub-menu-text {
 }
 .packages-right-fixed {
     display: inline-block;
+    width: 25%;
     bottom: 0;
     top: 50px;
     float: right;
@@ -1974,7 +1999,7 @@ a.sub-menu-text {
 }
 .floating-container {
     background-color: #ffffff;
-    width: 270px;
+    width: 100%;
     height: 270px;
     border-radius: 13px;
     border: solid 3px #00153E;
