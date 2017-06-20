@@ -1225,7 +1225,6 @@ i.icon.icon-email.footer-contact-links {
 
 .event-tag-line {
     color: #820a0b;
-    text-align: center;
 	margin-bottom: 32px;
 }
 .event-secondary-line {
@@ -1502,6 +1501,22 @@ i.icon.icon-email.footer-contact-links {
     padding-bottom: 36px;
 }
 
+#pullout-blurb {
+    background: #144e15;
+    width: 100%;
+    display: block;    
+    padding: 23px 0;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.blurb-text {
+    color: #ffffff;
+    font-size: 27px;
+    font-family: headers !important;
+    text-transform: uppercase;
+}
+
 #free-delivery {
     background: #FFFFFF;
     padding-top: 36px;
@@ -1644,6 +1659,13 @@ ul.free-delivery-listings li {
     padding-bottom: 72px;
 }
 
+#vertical-testmonial {
+    list-style-type: none !important;
+}
+#vertical-testmonial li {
+    list-style: none !important;
+}
+
 #call-to-action {
 	background-image: url("../img/cta-bg.jpg");
     background-size: cover;
@@ -1701,6 +1723,15 @@ ul.free-delivery-listings li {
 	margin: auto;
 	color: #144e15;
 	font-weight: bold;
+}
+.button-edit {
+    width: 270px !important;
+}
+.package-menu-link {
+    color: #144e15 !important;
+}
+.package-menu-link:hover {
+    color: #820a0b !important;
 }
 
 
@@ -1791,6 +1822,12 @@ a.sub-menu-text {
     height: 430px;
 	z-index: 0;
 }
+.overview-menu-title {
+    font-size: 27px !important;    
+    color: #9b190d !important;
+}
+
+
 #individual-overviews {
     padding: 0 0px 72px;
 }
@@ -2333,6 +2370,10 @@ a#sides-label.accordion-title:focus {
 }
 .about-text {
     text-align: left !important;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .team-members-row {
