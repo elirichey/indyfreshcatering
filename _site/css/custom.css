@@ -877,6 +877,18 @@ li {
     margin-top: 32px;
     padding: 0 13px;
 }
+.about-list-semantics {
+    margin-left: 0 !important;
+    list-style: none !important;
+}
+.about-list-semantics li {
+    display: inline-block !important;
+    width: 33%;
+    float: left !important;
+    text-align: center !important;
+    margin-top: 32px;
+    padding: 0 13px;
+}
 .menu-list-semantics-20 {
     margin-left: 0 !important;
     list-style: none !important;
