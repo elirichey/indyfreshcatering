@@ -2488,14 +2488,9 @@ a#sides-label.accordion-title:focus {
     padding: 14px;
     border-radius: 23px;
 }
-/*
-.close-reveal-modal {
-    position: flex;
-    top: 13px;
-    right: 13px;
-    color: #000;
+.reveal-overlay {
+    z-index: 100500000000000 !important;   
 }
-*/
 
 .fsForm select:not([multiple="multiple"]) { 
     background-position: right -16px top 50% !important;
