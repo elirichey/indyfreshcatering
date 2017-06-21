@@ -1931,51 +1931,17 @@ a.sub-menu-text {
 	z-index: 0;
 }
 
-.section-parent {
-    display: block;
-    position: relative;
-    height: auto;
-    width: 100%;
-    overflow: hidden;
+#breakfast-section {
 }
-.breakfast-section {
-    display: block;
-    position: relative;
-    background-color: #ffffff !important;
-    overflow: hidden !important;
-    height: auto;
-    z-index: 100;
+#breakfast-table {
 }
-.breakfast-table {
-    display: block;
-    position: relative;
-    z-index: 100;
+#lunch-section {
 }
-.lunch-section {
-    display: block;
-    position: relative;
-    background-color: #ffffff !important;
-    overflow: hidden !important;
-    height: auto;
-    z-index: 100;    
+#lunch-table {
 }
-.lunch-table {
-    display: block;
-    position: relative;
-    z-index: 100;
+#dinner-section {
 }
-.dinner-section {
-    display: block;
-    position: relative;
-    background-color: #ffffff !important;
-    overflow: hidden !important;
-    height: auto;
-    z-index: 100;
-}
-.dinner-table {
-    display: block;
-    position: relative;
-    z-index: 100;
+#dinner-table {
 }
 .packages-left-scroll {
     top: 0;
@@ -1983,60 +1949,23 @@ a.sub-menu-text {
     position: relative;
     float: left;
 }
-.packages-right-absolute {
-    display: inline-block;
-    bottom: 0;
-    float: right;
-    position: absolute;
-}
-.packages-right-fixed {
-    display: inline-block;
-    width: 25%;
-    bottom: 0;
-    top: 50px;
-    float: right;
-    position: fixed;
-}
+
 .floating-container {
     background-color: #ffffff;
     width: 100%;
     height: 270px;
     border-radius: 13px;
     border: solid 3px #00153E;
-    margin: auto;
-    margin-top: 213px;    
+    margin: auto;  
 }
-.parent-fixed {
-    position: relative;
-    top: 40px;
+#breakfast {
+    padding: 0 0 320px;
 }
-.fixed-elements {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
+#lunch {
+    padding: 0 0 320px;
 }
-.fixed {
-    position: absolute; /* effectively fixed */
-    top: 20px;
-    left: 20px;
-    background-color: #F00;
-    width: 200px;
-    height: 20px;
-}
-.fixed-scrolling {
-    display: block;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-.scrolling-contents {
-    display: inline-block;
-    white-space: nowrap;
-    background-color: #CCC;
-    overflow: scroll;
+#dinner {
+    padding: 0 0 320px;
 }
 
 
