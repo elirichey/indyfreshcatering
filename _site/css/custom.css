@@ -24,7 +24,7 @@ Red: #820a0b
 	}
 	#fsHeaderImage {
 		text-align: center;
-	}
+	} 
 	#fsHeaderImage img {
 		width: 0;
 		height: 0;
@@ -862,6 +862,10 @@ li {
     margin-right: 0 !important;
 }
 
+.col-no-pads {
+    padding: 0 !important;
+}
+
 .racks-and-sternos {
   padding-top: 60px !important;
 }
@@ -1213,24 +1217,24 @@ i.icon.icon-email.footer-contact-links {
 #celebrations-event-hero {
 	background-image: url("../img/celebrations-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
     padding: 16px;
 }
 #corporate-event-hero {
 	background-image: url("../img/corporate-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
     padding: 16px;
 }
 #wedding-event-hero {
 	background-image: url("../img/weddings-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
     padding: 16px;
 }
@@ -1406,18 +1410,14 @@ i.icon.icon-email.footer-contact-links {
 #home-hero {
 	background-image: url("../img/home-hero-alt.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 570px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 .home-h1 {
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
-	padding-top: 223px;
-    /*
-    padding-top: 143px;
-	padding-bottom: 32px;
-    */
+	padding-top: 93px;
     text-transform: uppercase;
 }
 .home-hero-text-container {
@@ -1854,8 +1854,8 @@ a.sub-menu-text {
 #menu-overview-hero {
 	background-image: url("../img/menu-overview-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 .overview-menu-title {
@@ -1874,72 +1874,72 @@ a.sub-menu-text {
 #breakfast-hero {
 	background-image: url("../img/breakfast-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 #bbq-hero {
 	background-image: url("../img/bbq-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 #apps-hero {
 	background-image: url("../img/apps-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 #desserts-hero {
 	background-image: url("../img/placeholder-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 #italian-hero {
 	background-image: url("../img/italian-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 #soup-and-salad-hero {
 	background-image: url("../img/soups-and-salads-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 #bbq-hero {
 	background-image: url("../img/bbq-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 #sides-hero {
 	background-image: url("../img/sides-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 #wraps-and-subs-hero {
 	background-image: url("../img/sandwiches-and-wraps-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 
 #packages-hero {
 	background-image: url("../img/packages-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
 }
 
@@ -1967,7 +1967,7 @@ a.sub-menu-text {
     width: 100%;
     height: 270px;
     border-radius: 13px;
-    border: solid 3px #00153E;
+    border: solid 3px #144e15;
     margin: auto;  
 }
 #breakfast {
@@ -1984,17 +1984,12 @@ a.sub-menu-text {
 .menu-h1 {
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
-	padding-top: 169px;
-}
-.menu-h1-contact {
-    color: #FFFFFF;
-	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
-	padding-top: 143px;
+	padding-top: 132px;
 }
 .menu-h1-alt {
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
-	padding-top: 151px;
+	padding-top: 111px;
 }
 
 .desktop-menu-layout {
@@ -2417,8 +2412,8 @@ a#sides-label.accordion-title:focus {
 #quotes-hero {
 	background-image: url("../img/cta-bg.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
     padding: 16px;
 }
@@ -2431,8 +2426,8 @@ a#sides-label.accordion-title:focus {
 #about-hero {
 	background-image: url("../img/about-hero.jpg");
     background-size: cover;
-	background-position: center bottom;
-    height: 430px;
+	background-position: center;
+    height: 360px;
 	z-index: 0;
     padding: 16px;
 }
