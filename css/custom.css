@@ -20,7 +20,7 @@ Red: #820a0b
 		float: center;
 		border: 3px solid #144e15;
 		background-color: #ffffff;
-		background-color: rgba(255, 255, 255, 1);
+		background-color: rgba(255, 255, 255, 1); 
 	}
 	#fsHeaderImage {
 		text-align: center;
@@ -987,7 +987,7 @@ i.icon.icon-email.header-contact-links {
 	display: inline-block;
 	margin: 0px 21px;
 }
-.top-social {
+.top-delivery {
 	padding-top: 8px;
 }
 .free-delivery-header {
@@ -1446,6 +1446,12 @@ i.icon.icon-email.footer-contact-links {
 	margin-top: 0;
 	margin-bottom: 120px;
 }
+#event-type-tiles {
+    display: block;
+	z-index: 10;
+	margin-top: 0;
+	margin-bottom: 120px;
+}
 .tile-container {
 	display: inline-block;
 	float: left;
@@ -1469,7 +1475,7 @@ i.icon.icon-email.footer-contact-links {
     border-radius: 23px;
     border: solid 11px #FFFFFF;
 }
-.packages-tile {
+.home-tiles {
 	display: block;
 	width: 320px;
 	height: 180px;
@@ -1480,24 +1486,20 @@ i.icon.icon-email.footer-contact-links {
 	border-radius: 23px;
     border: solid 11px #FFFFFF;    
 }
-.events-tile {
-	display: block;
-	width: 320px;
-	height: 180px;
-	background-image: url("../img/cutting-board-alt.png");
-    background-size: cover;
-	background-position: center;
-	margin: auto;
-	border-radius: 23px;
-    border: solid 11px #FFFFFF;    
-}
-
 .home-tile-text {
     display: block;
     color: #ffffff;
     font-family: headers;
-    font-size: 43px;
-    margin-top: -151px;
+    font-size: 36px;
+    margin-top: -143px;
+    text-shadow: 0px 0px 3px #000000, 0px 0px 7px #000000, 0px 0px 13px #000000, 0px 0px 23px #000000;
+}
+.home-tile-text-alt {
+    display: block;
+    color: #ffffff;
+    font-family: headers;
+    font-size: 36px;
+    margin-top: -121px;
     text-shadow: 0px 0px 3px #000000, 0px 0px 7px #000000, 0px 0px 13px #000000, 0px 0px 23px #000000;
 }
 
@@ -1860,7 +1862,7 @@ a.sub-menu-text {
 }
 .overview-menu-title {
     font-size: 27px !important;    
-    color: #9b190d !important;
+    color: #9b190d !important; 
 }
 
 
@@ -1943,24 +1945,12 @@ a.sub-menu-text {
 	z-index: 0;
 }
 
-#breakfast-section {
-}
-#breakfast-table {
-}
-#lunch-section {
-}
-#lunch-table {
-}
-#dinner-section {
-}
-#dinner-table {
-}
 .packages-left-scroll {
     top: 0;
     display: inline-block;
     position: relative;
     float: left;
-}
+} 
 
 .floating-container {
     background-color: #ffffff;
@@ -1990,6 +1980,11 @@ a.sub-menu-text {
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
 	padding-top: 111px;
+}
+.menu-item-h1 {
+	color: #FFFFFF;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+	padding-top: 132px;
 }
 
 .desktop-menu-layout {
@@ -2652,6 +2647,15 @@ div#fsRow2578648-28 {
 .custom-package-note {
   font-size: 13px !important;
   text-align: center !important;
+}
+.section-title {
+    display: inline-block;
+    font-family: headers;
+    font-size: 43px;
+    color: #820a0b;
+    text-align: center;
+    padding: 0px 32px;
+    padding-bottom: 36px;
 }
 
 
