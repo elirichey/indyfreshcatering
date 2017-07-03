@@ -875,6 +875,14 @@ li {
 }
 .menu-list-semantics li {
     display: inline-block !important;
+    width: 33%;
+    float: left !important;
+    text-align: center !important;
+    margin-top: 32px;
+    padding: 0 13px;
+}
+.package-list-semantics li {
+    display: inline-block !important;
     width: 50%;
     float: left !important;
     text-align: center !important;
@@ -1003,12 +1011,12 @@ i.icon.icon-email.header-contact-links {
     z-index: 1000000000000000 !important;
 }
 #alt-main-header {
-	display: block;
+    display: block;
     position: relative;
 	height: 231px;
 	box-shadow: 0px 0px 3px #000000;
     background: #fff;
-    z-index: 1000000000000000;
+    z-index: 1000000000000000 !important;
 }
 .header-logo {
 	padding-top: 23px;
@@ -2381,7 +2389,7 @@ a#sides-label.accordion-title:focus {
     text-transform: uppercase;
 }
 .height-300 {
-    height: 300px;
+    height: 263px;
 }
 .height-120 {
     height: 120px;
