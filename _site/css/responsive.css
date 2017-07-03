@@ -1039,6 +1039,7 @@
           margin-bottom: 16px;
       }
       .height-300 {
+          width: 100% !important;
           height: initial !important;
           margin-top: 32px !important;
           margin-bottom: 13px !important;           

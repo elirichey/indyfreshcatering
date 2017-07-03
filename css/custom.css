@@ -2551,6 +2551,10 @@ label#label48891277.fsLabel {
 
 /* Contact Form */
 
+#contact-intro {
+    padding: 72px 0 0;
+}
+
 .lets-get-started {
     color: #000000 !important;
     font-size: 27px !important;
@@ -2659,7 +2663,7 @@ div#fsRow2578648-28 {
 .section-title {
     display: inline-block;
     font-family: headers;
-    font-size: 43px;
+    font-size: 32px;
     color: #820a0b;
     text-align: center;
     padding: 0px 32px;
