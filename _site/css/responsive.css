@@ -175,7 +175,7 @@
           text-transform: inherit;
 	  }
 	  	  	  	  
-	  #hero-tiles {
+	  #index-tiles {
 		  margin-top: 50px;
 	  }
       #event-type-tiles {
@@ -189,18 +189,14 @@
 		  width: 230px;
 		  height: 150px;
 	  }
-	  .home-tiles {
+	  .index-tiles {
 		  width: 230px;
 		  height: 150px;
 	  }      
 	  .tile-text {
 		  padding-top: 43px;
 	  }
-	  #home-value {
-		  margin: 50px 0px;   
-          margin-top: 50px;
-          margin-bottom: 80px;
-	  }
+
 	  .value-image-container {
 		  display: inline-block;
 		  width: 34%;
@@ -223,9 +219,6 @@
 	  div.large-2.columns {
 		  width: 50%;
 		  margin: 10px 0px;
-	  }
-	  .community-partners-middle-row {
-		  padding: 0px 0px;
 	  }
 	  
 	  #menu-bar {
@@ -277,19 +270,6 @@
           display: none;
       }
             
-      #home-value {
-          margin-top: 151px;
-          margin-bottom: 121px;
-      }
-      .three-points-zero-to-one {
-          margin-top: 0px !important;
-      }
-      .three-points-one-to-two {
-          margin: 0px;
-      }
-      .three-points-two-to-three {
-          margin: 0px;
-      }
       
       .top-contact {
           width: 100% !important;
@@ -327,11 +307,11 @@
       }
       
       
-      .home-tile-text {
+      .index-tile-text {
           font-size: 32px !important;
           margin-top: -100px !important;
       }
-      .home-tile-text-alt {
+      .index-tile-text-alt {
           font-size: 32px !important;
           margin-top: -100px !important;
       }
@@ -501,7 +481,7 @@
           padding: 0px 32px;
       }
 	  	  
-	  #hero-tiles {
+	  #index-tiles {
 		  margin-top: 50px;
           margin-bottom: 72px;
 	  }
@@ -542,17 +522,7 @@
 		  background-position: center;
 		  padding: 63px 0px;
 	  }
-	  .value-text-container {
-		  text-align: center;
-          padding: 0 !important;
-	  }
-	  .value-image-container {
-		  text-align: center;
-	  }
-	  .value-image {
-		  margin-top: 0px;
-		  margin-bottom: 23px;
-	  }
+
 	  .how-we-serve-section-title {
 		  margin-top: 50px;
 	  }
@@ -569,16 +539,11 @@
 		  width: 50%;
 		  margin: 10px 0px;
 	  }
-	  #community-partners-intro {
-		  padding: 50px 0px;
-		  padding-bottom: 0px;
-	  }
-	  #community-partners-list {
+
+	  #index-testimonials {
 		  padding-bottom: 50px;
 	  }
-	  .community-partners-middle-row {
-		  padding: 0px 0px;
-	  }
+	  
 	  #call-to-action {
 		  padding: 43px 0px;
 		  padding-top: 72px;
@@ -827,9 +792,7 @@
         height: calc(100vw - 36px);
         margin-bottom: 72px;
       }
-      .community-partners-title {
-        padding-bottom: 13px;
-      }
+
       .team-member-bio {
         margin-bottom: 87px;
       }
