@@ -867,7 +867,7 @@ li {
 }
 
 .racks-and-sternos {
-  padding-top: 60px !important;
+  padding-top: 0 !important;
 }
 .menu-list-semantics {
     margin-left: 0 !important;
@@ -881,9 +881,22 @@ li {
     margin-top: 32px;
     padding: 0 13px;
 }
-.package-list-semantics li {
+.menu-list-semantics-alt {
+    margin-left: 0 !important;
+    list-style: none !important;
+    padding-bottom: 54px;
+}
+.menu-list-semantics-alt li {
     display: inline-block !important;
     width: 50%;
+    float: left !important;
+    text-align: center !important;
+    margin-top: 0;
+    padding: 0 13px;
+}
+.package-list-semantics li {
+    display: inline-block !important;
+    width: 33%;
     float: left !important;
     text-align: center !important;
     margin-top: 32px;
@@ -996,10 +1009,11 @@ i.icon.icon-email.header-contact-links {
 	margin: 0px 21px;
 }
 .top-delivery {
-	padding-top: 8px;
+    padding-top: 8px;
 }
 .free-delivery-header {
-  color: #ffffff;
+    color: #ffffff;
+    padding-top: 3px;
 }
 
 #main-header {
@@ -1194,7 +1208,7 @@ i.icon.icon-email.footer-contact-links {
 
 .package-type-container {
 	display: block;
-	padding: 100px 0px;
+	padding: 72px 0px 50px;
 	
 }
 
@@ -1640,7 +1654,7 @@ ul.free-delivery-listings li {
     padding: 0px 32px;
 }
 .how-we-serve-description {
-    padding-bottom: 63px;
+    padding-bottom: 32px;
 }
 .how-we-serve-row {	
 	display: block;
@@ -1706,7 +1720,7 @@ ul.free-delivery-listings li {
     display: block;
     position: relative;
     background: #ffffff;
-    padding: 120px 0px 120px;
+    padding: 50px 0px 50px;
     z-index: 1000000000;
 }
 
@@ -1962,11 +1976,10 @@ a.sub-menu-text {
 
 .floating-container {
     background-color: #ffffff;
-    width: 100%;
-    height: 270px;
+    width: 75%;
     border-radius: 13px;
     border: solid 3px #144e15;
-    margin: auto;  
+    margin: 23px auto;  
 }
 #breakfast {
     padding: 0 0 320px;
@@ -1976,6 +1989,12 @@ a.sub-menu-text {
 }
 #dinner {
     padding: 0 0 320px;
+}
+option:focus{
+    background-color:#FFF !important;
+    outline:none !important;
+    border:none !important;
+    box-shadow:none !important;
 }
 
 
@@ -1994,6 +2013,11 @@ a.sub-menu-text {
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
 	padding-top: 132px;
 }
+.event-h1 {
+	color: #FFFFFF;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
+	padding-top: 101px;
+}
 
 .desktop-menu-layout {
     
@@ -2005,7 +2029,7 @@ a.sub-menu-text {
 	padding-bottom: 0px;
 }
 .sub-menu-sub-categories-alt {
-	padding: 87px 0px;
+	padding: 87px 0px 00px;
 }
 
 .serving-size-title {
@@ -2103,7 +2127,7 @@ a.sub-menu-text {
 	padding-top: 0px;
     text-align: center;
     margin-top: 72px;
-    margin-bottom: 36px;
+    margin-bottom: 7px;
 }
 .click-me-container {
 	display: block;
@@ -2391,8 +2415,14 @@ a#sides-label.accordion-title:focus {
 .height-300 {
     height: 263px;
 }
+.height-200 {
+    height: 200px;
+}
 .height-120 {
     height: 120px;
+}
+.height-reveal-120 {
+    height: 263px;
 }
 .height-500 {
     height: 500px;
@@ -2492,11 +2522,10 @@ a#sides-label.accordion-title:focus {
 }
 
 .reveal {
-    width: 63% !important;
-    max-width: 63% !important;
+    width: 80% !important;
+    max-width: 80% !important;
     border: solid 7px #820a0b;
     padding: 14px;
-    border-radius: 23px;
 }
 .reveal-overlay {
     z-index: 100500000000000 !important;   
