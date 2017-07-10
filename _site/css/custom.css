@@ -1,38 +1,5 @@
 /* Menu Pages (menu.html layout) 
 
-.sub-menu-text {
-	display: block;
-	width: 100%;
-	color: #000000;
-	padding-top: 7px;
-	padding-left: 18px;
-    padding-right: 18px;
-	font-weight: normal		
-}
-a.sub-menu-text {
-	font-size: 16px;	
-}
-.sub-menu-text:hover {
-	display: inline-block;
-	width: 100%;
-	padding-top: 7px;
-    padding-bottom: 4px;
-	padding-left: 18px;
-    padding-right: 18px;
-	background: #FFFFFF;
-    color: #144e15;
-}
-.sub-menu-active {
-	display: inline-block;
-	width: 100%;
-	background: #FFFFFF;
-	padding-top: 7px;
-    padding-bottom: 4px;
-	padding-left: 18px;
-    padding-right: 18px;
-    color: #144e15;
-    font-weight: bold;
-}
 #individual-overviews {
     padding: 0 0px 72px;
 }

@@ -375,6 +375,39 @@ li.drop-menu-text.is-submenu-item.is-dropdown-submenu-item:hover {
     margin: 0px 4px;
 	color: #FFFFFF;
 }
+.sub-menu-text {
+	display: block;
+	width: 100%;
+	color: #000000;
+	padding-top: 7px;
+	padding-left: 18px;
+    padding-right: 18px;
+	font-weight: normal		
+}
+a.sub-menu-text {
+	font-size: 16px;	
+}
+.sub-menu-text:hover {
+	display: inline-block;
+	width: 100%;
+	padding-top: 7px;
+    padding-bottom: 4px;
+	padding-left: 18px;
+    padding-right: 18px;
+	background: #FFFFFF;
+    color: #144e15;
+}
+.sub-menu-active {
+	display: inline-block;
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 7px;
+    padding-bottom: 4px;
+	padding-left: 18px;
+    padding-right: 18px;
+    color: #144e15;
+    font-weight: bold;
+}
 
 /* Footer Styles */
 #top-footer {	
@@ -834,8 +867,17 @@ ul.free-delivery-listings li {
 }
 
 /* Menu Styles */
+.menu-section-title {
+    display: inline-block;
+    font-family: headers; 
+    font-size: 32px;
+    color: #820a0b;
+    text-align: center;
+    padding: 43px 32px;
+    padding-bottom: 0;
+}
 .racks-and-sternos {
-  padding-top: 0 !important;
+  padding-top: 50px !important;
 }
 .menu-list-semantics {
     margin-left: 0 !important;

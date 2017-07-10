@@ -62,13 +62,17 @@
       } 
       .tablet-25 {
           width: 25% !important;
-      } 
-      .height-300 {
-          width: 50% !important;
-      }
+      }       
       .height-120 {
           width: 50% !important;
           height: inherit !important;
+      }
+      .height-200 {
+          width: 50% !important;
+          height: inherit !important;
+      }
+      .height-300 {
+          width: 50% !important;
       }
       
       #alt-main-header {
@@ -289,7 +293,7 @@
 	  }
       .index-tile-text {
           font-size: 32px !important;
-          margin-top: -100px !important;
+          margin-top: -120px !important;
       }
       .index-tile-text-alt {
           font-size: 32px !important;
@@ -336,6 +340,21 @@
 	  }	       
       .mobile-menu-layout {
           display: none;
+      }
+      .menu-list-semantics li {
+          width: 50% !important;
+          padding: 0 !important;
+      }
+      .menu-list-semantics-alt li {
+          width: 50% !important;
+          padding: 0 !important;
+      }
+      .menu-list-semantics-20 li {
+          width: 50% !important;
+      }
+      .menu-list-semantics-50 li {
+          width: 50% !important;
+          padding: 0 !important;
       }
 
     /* Events Styles */
@@ -687,6 +706,10 @@
 		  font-size: 32px;
           text-transform: inherit;
       }
+      .event-tag-line {
+          font-size: 32px !important;
+          text-align: center !important;
+      }
       .menu-item-h1 {
 	      color: #FFFFFF;
 	      text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
@@ -737,6 +760,7 @@
           padding: 0 !important;
       }
       #index-testimonials {
+          padding-top: 0 !important;
 		  padding-bottom: 50px;
 	  }	
       #pullout-blurb {
@@ -749,6 +773,10 @@
       .free-delivery-section-title {
           font-size: 23px !important;
           padding-bottom: 16px !important;
+      }
+      .free-delivery-img {
+          height: inherit !important;
+          margin-bottom: 72px;
       }
 
     /* Packages Styles */
@@ -766,6 +794,9 @@
       #menu-bar {
 		  display: none;
 	  }
+      .menu-section-title {
+          font-size: 32px !important;
+      } 
       .height-300 {
           width: 100% !important;
           height: initial !important;
@@ -788,6 +819,9 @@
     /* Events Styles */
       .testimonial-top-title {
           font-size: 32px !important;
+      }
+      .testimonials-container {
+          margin-top: 72px;
       }
 
     /* Contact Styles */
