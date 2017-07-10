@@ -940,6 +940,9 @@ ul.free-delivery-listings li {
     width: 100%; 
     font-weight: bold;
 }
+.menu-packages-notification {
+    padding: 50px 0 72px;
+}
 
 /* Events Styles */
 .event-type-container {

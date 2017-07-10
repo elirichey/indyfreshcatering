@@ -356,6 +356,9 @@
           width: 50% !important;
           padding: 0 !important;
       }
+      .menu-packages-notification {
+          padding: 0 !important;
+      }
 
     /* Events Styles */
 
