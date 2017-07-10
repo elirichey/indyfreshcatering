@@ -850,6 +850,7 @@
       .reveal {
           width: 100% !important;
           margin: auto;
+          margin-bottom: 63px !important;;
       }
       .close-button {
           display: block;
@@ -861,7 +862,7 @@
           font-size: 36px;
           left: 0px;
           background-color: #144e15;
-          height: 90px;
+          height: 63px;
           width: 100vw;
           cursor: pointer;
       }
