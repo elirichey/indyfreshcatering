@@ -215,6 +215,7 @@ a:hover, a:focus {
 }
 .contact-phone {
 	display: inline-block;
+    margin-left: 32px;
 }
 .top-email {
 	display: inline-block;
@@ -222,26 +223,11 @@ a:hover, a:focus {
 }
 .contact-email {
 	display: inline-block;
-	margin-left: 0px;
+	margin-right: 32px;
 }
 .header-contact-links {
 	color: #FFFFFF;
-	font-size: 27px;
-}
-.contact-contact-links {
-    display: inline-block;
-    float: left;
-	color: #144e15;
-	font-size: 43px;
-    margin-top: 0px;
-}
-.contact-contact-text {
-    display: inline-block;
-    float: left;
-    color: #000000;
-    font-size: 27px;
-    font-family: headers;
-    margin-left: 13px;
+	font-size: 32px;
 }
 .contact-contact-text:hover {
     color: #144e15;
@@ -999,6 +985,24 @@ ul.free-delivery-listings li {
 #contact-text {
 	padding-top: 87px;
 	padding-bottom: 72px;
+}
+.talk-now-title {
+    font-size: 27px !important;
+}
+.contact-contact-links {
+    display: inline-block;
+    float: left;
+	color: #144e15;
+	font-size: 27px;
+    margin-top: 0px;
+}
+.contact-contact-text {
+    display: inline-block;
+    float: left;
+    color: #000000;
+    font-size: 18px;
+    font-family: headers;
+    margin-left: 13px;
 }
 
 /* About Styles */

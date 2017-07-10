@@ -836,6 +836,16 @@
           font-size: 16px !important;
           margin-left: 7px !important;
       }
+      .contact-phone {
+	      display: inline-block;
+          margin: 0 !important;
+          padding: 0 0 54px;
+      }
+      .contact-email {
+	      display: inline-block;
+	      margin: 0 !important;
+          padding: 0 0 13px;
+      }
 
     /* About Styles */
       .about-list-semantics li {
