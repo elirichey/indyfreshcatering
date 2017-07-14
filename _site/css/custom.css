@@ -227,7 +227,7 @@ a:hover, a:focus {
 }
 .header-contact-links {
 	color: #FFFFFF;
-	font-size: 32px;
+	font-size: 23px;
 }
 .contact-contact-text:hover {
     color: #144e15;
@@ -252,7 +252,7 @@ i.icon.icon-email.header-contact-links {
 	margin: 0px 21px;
 }
 .top-delivery {
-    padding-top: 8px;
+    padding-top: 7px;
 }
 .free-delivery-header {
     color: #ffffff;
@@ -1049,16 +1049,18 @@ ul.free-delivery-listings li {
     padding: 32px 32px 0;     
 }
 .quick-menu-section-title {
-    color: #144e15 !important;       
+    color: #820a0b !important;   
+    font-style: italic;
 }
 .quick-menu-section-title:hover {
-    color: #820a0b !important;       
+    color: #144e15 !important;       
 }
 .reveal {
-    width: 80% !important;
-    max-width: 80% !important;
-    border: solid 7px #820a0b;
+    width: 67% !important;
+    max-width: 67% !important;
+    border: solid 3px #820a0b;
     padding: 14px;
+    border-radius: 13px;
 }
 .reveal-overlay {
     z-index: 100500000000000 !important;   
