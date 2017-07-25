@@ -28,10 +28,9 @@
 	<link rel="stylesheet" href="css/foundation.min.css" />
  	<link rel="stylesheet" href="css/social/style.min.css" />		
 	<link rel="stylesheet" href="css/lightbox.min.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="stylesheet" href="css/responsive.min.css" />
 	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
-	<meta name="robots" content="noindex" />
 </head>
 
 <body>		
@@ -354,6 +353,27 @@
         </div>
     </div>
 
+    <div id="call-to-action">
+        <div class="row text-center">        
+            <div class="large-8 large-centered columns">
+                <h3 class="call-to-action-title">
+                    Ready to Place Your Order?
+                    <br>
+                </h3>			
+
+                <div class="call-to-action-button-container">
+                    <div class="x2-button-container-left">
+                        <a class="over-dark-button" href="/contact.html">GET A CUSTOM QUOTE</a>
+                    </div>
+
+                    <div class="x2-button-container-right">
+                        <a class="over-dark-button" href="tel:(317)605-1200">CALL US NOW</a>
+                    </div>
+                </div>
+            </div>		
+        </div>
+    </div>
+    
     <div id="top-footer">
     	<div class="row">
 			<ul id="footer-social">
@@ -449,6 +469,16 @@
         $(document).ready(function(){
             $("#alt-main-header").sticky({topSpacing:0});
         });
+    </script>
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-98656385-1', 'auto');
+        ga('send', 'pageview');
     </script>
 
 </body>
