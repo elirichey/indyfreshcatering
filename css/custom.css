@@ -1932,8 +1932,13 @@ div#fsRow2578648-28 {
     padding: 0 13px !important;
 }
 
-
-
+/* Thank You Page */
+#thank-you {
+  padding: 120px;
+}
+.view-home-page {
+  color: #820a0b;
+}
 
 
 
