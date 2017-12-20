@@ -12,12 +12,12 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /usr/local/Cellar/ruby/2.4.2/include/ruby-2.4.0
+topdir = /usr/local/Cellar/ruby/2.4.2_1/include/ruby-2.4.0
 hdrdir = $(topdir)
-arch_hdrdir = /usr/local/Cellar/ruby/2.4.2/include/ruby-2.4.0/x86_64-darwin15
+arch_hdrdir = /usr/local/Cellar/ruby/2.4.2_1/include/ruby-2.4.0/x86_64-darwin16
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/usr/local/Cellar/ruby/2.4.2
+prefix = $(DESTDIR)/usr/local/Cellar/ruby/2.4.2_1
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -31,8 +31,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(DESTDIR)/usr/local/lib/ruby/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20171023-5984-119qz1s
-sitelibdir = $(DESTDIR)./.gem.20171023-5984-119qz1s
+sitearchdir = $(DESTDIR)./.gem.20171220-2362-p0iaww
+sitelibdir = $(DESTDIR)./.gem.20171220-2362-p0iaww
 sitedir = $(DESTDIR)/usr/local/lib/ruby/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -102,7 +102,7 @@ RUBY_VERSION_NAME = $(RUBY_BASE_NAME)-$(ruby_version)
 RUBYW_BASE_NAME = rubyw
 RUBY_BASE_NAME = ruby
 
-arch = x86_64-darwin15
+arch = x86_64-darwin16
 sitearch = $(arch)
 ruby_version = 2.4.0
 ruby = $(bindir)/$(RUBY_BASE_NAME)

@@ -1026,17 +1026,21 @@ ul.free-delivery-listings li {
     text-align: left !important;
 }
 .team-members-row {
-    padding-bottom: 72px;
+    padding-bottom: 50px;
 }
 .team-member-image {
     display: block;
-    width: 80%;
-    margin: auto;
+    width: 270px;
+    height: 270px;
     text-align: center;
-    padding-bottom: 23px;
+    margin: auto auto 23px;
+}
+.team-member-name {
+  margin-bottom: 0 !important;
 }
 .team-member-title {
     font-style: italic;
+    margin-bottom: 13px !important;
 }
 .about-list-semantics {
     margin-left: 0 !important;
@@ -1045,9 +1049,8 @@ ul.free-delivery-listings li {
 .about-list-semantics li {
     display: inline-block !important;
     width: 33%;
-    float: left !important;
-    text-align: center !important;
-    margin-top: 32px;
+    margin: 0 0 32px;
+    float: left;
     padding: 0 13px;
 }
 
