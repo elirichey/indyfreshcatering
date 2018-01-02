@@ -1045,6 +1045,12 @@ ul.free-delivery-listings li {
     font-style: italic;
     margin-bottom: 13px !important;
 }
+.team-member-bio {
+    height: 250px;
+}
+.team-member-favorite {
+    height: 60px;
+}
 .about-list-semantics {
     margin-left: 0 !important;
     list-style: none !important;
