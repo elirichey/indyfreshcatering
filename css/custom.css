@@ -272,7 +272,7 @@ i.icon.icon-email.header-contact-links {
 #main-header {
 	display: block;
     position: relative;
-	height: 187px;
+	height: 150px;
 	box-shadow: 0px 0px 3px #000000;
     background: #fff;
     z-index: 1000000000000000 !important;
@@ -280,17 +280,18 @@ i.icon.icon-email.header-contact-links {
 #alt-main-header {
     display: block;
     position: relative;
-	height: 231px;
+	height: 194px;
 	box-shadow: 0px 0px 3px #000000;
     background: #fff;
     z-index: 1000000000000000 !important;
 }
 .header-logo {
+  width: 180px;
 	padding-top: 23px;
 }
 #main-menu {
 	display: flex;
-	padding-top: 54px;
+	padding-top: 33px;
 }
 #main-menu li {
     flex-direction: column;
@@ -908,12 +909,12 @@ ul.free-delivery-listings li {
 .suggested-sides-container {
   display: inline-block;
   width: calc(33% - 30px) !important;
-  border: solid 3px #820a0b;
+  border: solid 3px #CCCCCC;
   text-align: center;
   margin: 9px 15px 0;
 }
 .suggested-sides-title {
-  background-color: #820a0b !important;
+  background-color: #144E16 !important;
   padding: 6px 0 6px;
   color: #FFFFFF;
 }
@@ -928,50 +929,52 @@ ul.free-delivery-listings li {
   height: auto;
   background-color: #FFFFFF;
   padding: 3px;
-  border-top: solid 2px #144e15;
-  border-bottom: solid 2px #144e15;
+  border-top: solid 2px #820a0b;
+  border-bottom: solid 2px #820a0b;
   border-radius: 15px;
   margin: 6px 0px;
 }
-.suggested-sides-list li a {
+.final-itm {
+  color: #000000;
+  border: solid 2px #820a0b !important;
+}
+.final-itm:hover {
+  color: #820a0b;
+  border: solid 2px #144e15 !important;
+}
+.suggested-sides-list li span {
   display: block;
   width: 100%;
-  font-family: headers;
   color: #000000 !important;
 }
-.suggested-sides-list li:hover a {
-  color: #144e15 !important;
-}
-.suggested-sides-list li:hover {
-  background-color: #FFFFFF;
-  border: 2px solid #820a0b;
-}
-.suggested-sides-list li:hover:last-child a {
+.final-itm {
   display: block;
-  width: 100%;
-  color: #144e15 !important;
-}
-.suggested-sides-list li:last-child {
-  width: 100%;
+  width: calc(100% - 24px);
   height: auto;
+  font-size: 16px;
+  font-family: headers;
   background-color: #FFFFFF;
   padding: 3px;
-  border: solid 2px #CCCCCC;
+  color: #820a0b;
+  border: solid 2px #144e15 !important;
   border-radius: 15px;
-  margin: 6px 0px;
+  margin: 6px auto;
 }
-.suggested-sides-list li:last-child a {
+.final-itm:hover {
+  color: #144e15;
+  border: solid 2px #820a0b !important;
+}
+/*/
+.suggested-sides-list li a {
   width: 100%;
   color: #144e15;
 }
-.suggested-sides-list li:hover:last-child {
+.suggested-sides-list li a:hover {
+  width: 100%;
   background-color: #FFFFFF;
-  border: 2px solid #820a0b;
+  color: #820a0b;
 }
-.suggested-sides-list li:hover:last-child a {
-  width: 100%;
-  color: #144e15;
-}
+/*/
 a.suggested-link {
   color: #000000 !important;
 }
