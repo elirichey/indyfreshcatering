@@ -1,6 +1,8 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www.indyfreshcatering.com [NC]
-RewriteRule ^(.*)$ http://indyfreshcatering.com/$1 [L,R=301,NC]
+## RewriteEngine on ##
+## RewriteCond %{HTTP_HOST} ^www.indyfreshcatering.com [NC] ##
+## RewriteRule ^(.*)$ https://indyfreshcatering.com/$1 [L,R=301,NC] ##
+RewriteCond %{HTTPS_HOST} ^indyfreshcatering\.com$
+RewriteRule ^(.*)$ "https\:\/\/www\.indyfreshcatering\.com\/$1" [R=301,L]
 
 
 ## EXPIRES CACHING ##
