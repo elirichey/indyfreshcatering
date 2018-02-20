@@ -379,8 +379,8 @@ li.drop-menu-text.is-submenu-item.is-dropdown-submenu-item:hover {
 	width: 100%;
 	color: #000000;
 	padding-top: 7px;
-	padding-left: 18px;
-    padding-right: 18px;
+	padding-left: 13px;
+  padding-right: 13px;
 	font-weight: normal
 }
 a.sub-menu-text {
@@ -390,11 +390,11 @@ a.sub-menu-text {
 	display: inline-block;
 	width: 100%;
 	padding-top: 7px;
-    padding-bottom: 4px;
-	padding-left: 18px;
-    padding-right: 18px;
+  padding-bottom: 4px;
+	padding-left: 13px;
+  padding-right: 13px;
 	background: #FFFFFF;
-    color: #144e15;
+  color: #144e15;
 }
 .sub-menu-active {
 	display: inline-block;
@@ -402,8 +402,8 @@ a.sub-menu-text {
 	background: #FFFFFF;
 	padding-top: 7px;
     padding-bottom: 4px;
-	padding-left: 18px;
-    padding-right: 18px;
+	padding-left: 13px;
+    padding-right: 13px;
     color: #144e15;
     font-weight: bold;
 }
