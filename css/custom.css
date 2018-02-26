@@ -156,17 +156,28 @@ a:hover, a:focus {
 	font-weight: bold;
 }
 .over-dark-button:hover {
-	display: block;
 	background: #FFFFFF;
 	border: solid 3px #820a0b;
+	color: #144e15;
+}
+.over-dark-button-x2 {
+	display: inline-block;
+	background: #FFFFFF;
+	border: solid 3px #144e15;
 	border-radius: 23px;
 	padding: 4px 0px;
-    padding-top: 7px;
-    font-family: headers;
+  padding-top: 7px;
+  font-family: headers;
 	width: 230px;
-	margin: auto;
-	color: #144e15;
+	margin: 13px;
+	color: #000000;
 	font-weight: bold;
+}
+.over-dark-button-x2:hover {
+	background: #FFFFFF;
+	border: solid 3px #820a0b;
+  padding-top: 7px;
+	color: #144e15;
 }
 .printable-link {
   display: inline-block !important;
