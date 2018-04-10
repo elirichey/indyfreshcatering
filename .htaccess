@@ -1,7 +1,7 @@
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} ^www\.indyfreshcatering\.com$
-RewriteRule ^/?$ "https\:\/\/indyfreshcatering\.com\/" [R=301,L]
+RewriteRule ^/?$ "http\:\/\/indyfreshcatering\.com\/" [R=301,L]
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 ## EXPIRES CACHING ##
