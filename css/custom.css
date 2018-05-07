@@ -1970,14 +1970,14 @@ label#label48891277.fsLabel {
     padding-right: 13px !important;
 }
 div#fsRow2578648-12 {
-    width: 33% !important;
+    width: 100% !important;
     float: left !important;
     padding-right: 13px !important;
 }
 div#fsRow2578648-13 {
-    width: 66% !important;
-    float: left !important;
-    padding: 0 13px !important;
+  width: 33% !important;
+  float: left !important;
+  padding: 0 13px !important;
 }
 div#fsRow2578648-14 {
     width: 66% !important;
@@ -2029,6 +2029,11 @@ div#fsRow2578648-23 {
     float: left !important;
     padding: 0 13px !important;
 }
+div#fsRow2578648-23 {
+    width: 66% !important;
+    float: left !important;
+    padding: 0 13px !important;
+}
 div#fsRow2578648-24 {
     width: 66% !important;
     float: left !important;
@@ -2053,6 +2058,9 @@ div#fsRow2578648-28 {
     width: 100% !important;
     float: left !important;
     padding: 0 13px !important;
+}
+div#fsRow2578648-32 {
+  width: 100% !important;
 }
 
 /* Thank You Page */
@@ -3317,6 +3325,7 @@ body.lb-disable-scrolling {
       }
       div#fsRow2578648-13 {
           width: 100% !important;
+          float: left !important;
           padding-right: 0 !important;
           padding-left: 0 !important;
       }
