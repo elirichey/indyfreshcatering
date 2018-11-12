@@ -148,12 +148,13 @@ a:hover, a:focus {
 	border: solid 3px #144e15;
 	border-radius: 23px;
 	padding: 4px 0px;
-    padding-top: 7px;
-    font-family: headers;
+  padding-top: 7px;
+  font-family: headers;
 	width: 230px;
 	margin: auto;
 	color: #000000;
 	font-weight: bold;
+  text-align: center;
 }
 .over-dark-button:hover {
 	background: #FFFFFF;
@@ -177,6 +178,26 @@ a:hover, a:focus {
 	background: #FFFFFF;
 	border: solid 3px #820a0b;
   padding-top: 7px;
+	color: #144e15;
+}
+.over-dark-button-top-margin {
+	display: block;
+	background: #FFFFFF;
+	border: solid 3px #144e15;
+	border-radius: 23px;
+	padding: 4px 0px;
+  padding-top: 7px;
+  font-family: headers;
+	width: 230px;
+	margin: auto;
+	color: #000000;
+	font-weight: bold;
+  text-align: center;
+  margin-top: 23px;
+}
+.over-dark-button-top-margin:hover {
+	background: #FFFFFF;
+	border: solid 3px #820a0b;
 	color: #144e15;
 }
 .printable-link {
@@ -506,10 +527,11 @@ i.icon.icon-email.footer-contact-links {
 
 /* Hero Styles */
 #home-hero {
-	background-image: url("../img/home-hero-alt.jpg");
-    background-size: cover;
+	/* background-image: url("../img/home-hero-alt.jpg"); */
+  background-image: url("../img/fall-holiday-menu-hero.jpg");
+  background-size: cover;
 	background-position: center;
-    height: 360px;
+  height: 360px;
 	z-index: 0;
 }
 .home-h1 {
@@ -655,7 +677,6 @@ i.icon.icon-email.footer-contact-links {
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
 	padding-top: 101px;
 }
-
 
 
 /* Index Styles */
@@ -2794,8 +2815,8 @@ body.lb-disable-scrolling {
   }
 
 /******************************************************************************
-  Max Width "767px"
-  *******************************************************************************/
+Max Width "767px"
+*******************************************************************************/
   @media (max-width: 767px) {
 
     /* Phones */
