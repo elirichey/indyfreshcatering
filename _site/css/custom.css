@@ -527,18 +527,18 @@ i.icon.icon-email.footer-contact-links {
 
 /* Hero Styles */
 #home-hero {
-	/* background-image: url("../img/home-hero-alt.jpg"); */
-  background-image: url("../img/fall-holiday-menu-hero.jpg");
+	background-image: url("../img/home-hero-alt.jpg");
+  /* background-image: url("../img/fall-holiday-menu-hero.jpg"); */
   background-size: cover;
-	background-position: center;
+  background-position: center;
   height: 360px;
-	z-index: 0;
+  z-index: 0;
 }
 .home-h1 {
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 23px rgba(0, 0, 0, 1), 0px 0px 32px rgba(0, 0, 0, 1);
 	padding-top: 93px;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 .home-hero-text-container {
 	text-align: center;
