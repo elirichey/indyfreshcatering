@@ -527,8 +527,9 @@ i.icon.icon-email.footer-contact-links {
 
 /* Hero Styles */
 #home-hero {
-	background-image: url("../img/home-hero-alt.jpg");
+  /* background-image: url("../img/home-hero-alt.jpg"); */
   /* background-image: url("../img/fall-holiday-menu-hero.jpg"); */
+  background-image: url("../img/winter-menu-hero.jpg");
   background-size: cover;
   background-position: center;
   height: 360px;
