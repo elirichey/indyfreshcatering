@@ -912,8 +912,7 @@ ul.free-delivery-listings li {
     font-size: 32px;
     color: #820a0b;
     text-align: center;
-    padding: 43px 32px;
-    padding-bottom: 0;
+    padding: 43px 32px 36px;
 }
 .racks-and-sternos {
   padding-top: 50px !important;
